@@ -1,34 +1,21 @@
 import { Route, Routes } from 'react-router-dom';
+import { MainLayout, EmptyLayout } from './layouts';
+import { Home, NotFound } from './pages'
 
 const App = () => {
   return (
-//     <Routes>
+    <Routes>
 
-//         <Route path="/" element={ <Layout /> }>
-//           <Route index element={<Home />}/>
+      <Route path="/" element={ <MainLayout /> }>
+        <Route index element={<Home />}/>
+      </Route>
 
-//           <Route path="about" element={<About />}>
-//             <Route index element={<Teams />} />
-//             <Route path="teams" element={<Teams />} />
-//             <Route path="company-info" element={<CompanyInfo />} />
-//           </Route>
+      <Route element={<EmptyLayout />}>
+        <Route path='*' element={<NotFound />} />
+      </Route>
 
-//           <Route path="blog" element={<Blog />}/>
-//           <Route path="blog/:id" element={<Single />}/>
-//           <Route path="blog/new" element={<CreatePost />}/>
-
-//           <Route path='login' element={<Login />} />
-
-//           <Route path="*" element={<NotFound404 />}/>
-//         </Route>
-
-//     </Routes>
-
-    <>
-      <h1>PROOOM</h1>
-    </>
-
+    </Routes>
   )
 }
 
-export default App
+export default App;
