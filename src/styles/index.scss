@@ -125,25 +125,25 @@ header .button a:hover {
 /*          ‾‾‾‾‾‾‾          */
 
 
-#signIn {
+#sign-in {
     display: none;
     background-color: white;
     display: none;
     padding-inline: .5em;
 }
-#signIn img {
+#sign-in img {
     float: left;
     width: 1.7em;
     margin-top: .5em;
     margin-right: .5em;
 }
-#signIn small {
+#sign-in small {
     display: block;
     color: gray;
     margin-top: .3em;
 }
-#signIn #buttons {margin-top: 1em; text-align: center}
-#signIn button {
+#sign-in #buttons {margin-top: 1em; text-align: center}
+#sign-in button {
     padding: .7em;
     font-weight: bold;
     border-radius: 10px;
@@ -151,19 +151,19 @@ header .button a:hover {
     width: 40svw;
     transition: .2s ease background-color;
 }
-#signIn button:hover {transition: .2s ease background-color; cursor: pointer}
-#signIn #login {
+#sign-in button:hover {transition: .2s ease background-color; cursor: pointer}
+#sign-in #login {
     color: whitesmoke;
     background-color: rgb(138,8,248);
     border: none;
 }
-#signIn #login:hover {background-color: rgb(98,0,209)}
-#signIn #signup {
+#sign-in #login:hover {background-color: rgb(98,0,209)}
+#sign-in #signup {
     color: rgb(138,8,248);
     background-color: white;
     border: 1px solid rgb(138,8,248);
 }
-#signIn #signup:hover {background-color: rgb(241,230,251)}
+#sign-in #signup:hover {background-color: rgb(241,230,251)}
 
 
 /*          ________          */
@@ -171,7 +171,7 @@ header .button a:hover {
 /*          ‾‾‾‾‾‾‾‾          */
 
 
-main > *:not(#menuAd, #signIn), footer {padding-inline: 10svw}
+main > *:not(#menuAd, #sign-in), footer {padding-inline: 10svw}
 .oldPrice {
     color: gray;
     text-decoration: line-through;
@@ -626,7 +626,7 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
     #menuAd #shop {width: 31.5svh}
 }
 @media (max-width: 960px) { /*   TABLET   */
-    main > *:not(#menuAd, #signIn), footer {padding-inline: .5em}
+    main > *:not(#menuAd, #sign-in), footer {padding-inline: .5em}
     #top img {
         max-width: 30em;
         width: 95svw;
@@ -678,7 +678,7 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
 
     main {z-index: auto}
     #menuAd #menu, #menuAd #shop {display: none}
-    #signIn {display: block; padding-top: 1em}
+    #sign-in {display: block; padding-top: 1em}
 
     #menuAd #ad {
         height: 40svw;
