@@ -35,11 +35,11 @@ header {
     top: 0;
     z-index: 1;
 }
-header a:has(#headerLogo) {
+header a:has(#header-logo) {
     width: 6.2em;
     height: 2.5em;
 }
-header #headerLogo {width: 100%; margin-left: 1em}
+header #header-logo {width: 100%; margin-left: 1em}
 header span {font-size: .81em}
 header #search {
     border: 1px solid lightgray;
@@ -48,7 +48,7 @@ header #search {
     margin-left: 2em;
 }
 header i {font-size: 1.23rem}
-header #searchInput {
+header #search-input {
     height: 2.5em;
     width: 44svw;
     border: none;
@@ -59,8 +59,8 @@ header #searchInput {
     z-index: 1;
     position: relative;
 }
-header #searchInput:focus {outline: none}
-header #searchText {
+header #search-input:focus {outline: none}
+header #search-text {
     display: inline-block;
     padding: .55em .8em;
     padding-bottom: .65em;
@@ -71,13 +71,13 @@ header #searchText {
     font-weight: bold;
     transition: .1s ease color background-color;
 }
-header #searchText i {display: none}
-header #searchInput:focus ~ #searchText {
+header #search-text i {display: none}
+header #search-input:focus ~ #search-text {
     transition: .1s ease color background-color;
     color: black;
     background-color: lightgray;
 }
-header #searchInput:not(:placeholder-shown) ~ #searchText {
+header #search-input:not(:placeholder-shown) ~ #search-text {
     transition: .1s all ease;
     background-color: rgb(255, 208, 0);
     color: black;
@@ -92,7 +92,7 @@ header #searchInput:not(:placeholder-shown) ~ #searchText {
     visibility: hidden;
     z-index: 0;
 }
-header #searchInput:focus ~ #darkbg {
+header #search-input:focus ~ #darkbg {
     opacity: .3;
     visibility: visible;
     transition: .1s ease all;
@@ -192,7 +192,7 @@ main > *:not(#menuAd, #signIn), footer {padding-inline: 10svw}
 
 
 header, #menuAd {background-color: white}
-header:has(> #search > #searchInput:focus) ~ main {z-index: -1}
+header:has(> #search > #search-input:focus) ~ main {z-index: -1}
 main {position: relative; background-color: whitesmoke}
 #menuAd {
     height: 25em;
@@ -636,15 +636,15 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
         align-items: start;
         padding-top: .75em;
     }
-    header a:has(#headerLogo) {display: none}
+    header a:has(#header-logo) {display: none}
     header #search {
         margin: 0;
         background-color: white;
     }
-    header #searchText span {display: none}
-    header #searchText i {display: inline-block}
-    header #searchText {width: 1.5em; margin-right: 0}
-    header #searchInput {width: 83.5svw}
+    header #search-text span {display: none}
+    header #search-text i {display: inline-block}
+    header #search-text {width: 1.5em; margin-right: 0}
+    header #search-input {width: 83.5svw}
     header #login, header #fav {display: none}
     header #home, header #catalog, header #chat, header #profile {display: flex}
     header #buttons {
@@ -674,7 +674,7 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
     header #profile a {padding-right: 2em}
     header #buttons a:hover {transition: none}
     header #darkbg {display: none}
-    header #searchInput:focus ~ #searchText {background-color: rgb(239, 239, 239)}
+    header #search-input:focus ~ #search-text {background-color: rgb(239, 239, 239)}
 
     main {z-index: auto}
     #menuAd #menu, #menuAd #shop {display: none}
@@ -712,7 +712,7 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
 }
 @media (max-width: 545px) { /*   PHONE   */
     #top {height: 7.4svw}
-    header #searchText {
+    header #search-text {
         width: 2svw;
         padding-left: 1.5svw;
         padding-right: 4.5svw;
