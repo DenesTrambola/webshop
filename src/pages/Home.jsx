@@ -1,5 +1,6 @@
 import Ad from "../components/home/Ad";
 import CreateCustomShop from "../components/home/CreateCustomShop";
+import CustomShopSection from "../components/home/custom-shop-section/CustomShopSection";
 import ForYouSection from "../components/home/foryou-section/ForYouSection";
 import FrequentSection from "../components/home/frequent-section/FrequentSection";
 import InterestedSection from "../components/home/interested-section/InterestedSection";
@@ -19,6 +20,7 @@ const Home = () => {
       <InterestedSection />
       <ForYouSection />
       <SearchesSection />
+      <CustomShopSection />
     </main>
   );
 }
