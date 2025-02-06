@@ -1,6 +1,10 @@
+import FooterDesktop from "../components/footer/desktop/FooterDesktop";
+
 const Footer = () => {
   return (
-    <footer></footer>
+    <footer>
+      <FooterDesktop />
+    </footer>
   );
 }
 

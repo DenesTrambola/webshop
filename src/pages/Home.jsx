@@ -17,9 +17,13 @@ const Home = () => {
       </section>
 
       <FrequentSection />
+
       <InterestedSection />
+
       <ForYouSection />
+
       <SearchesSection />
+
       <CustomShopSection />
     </main>
   );

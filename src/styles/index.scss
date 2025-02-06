@@ -410,13 +410,13 @@ main {position: relative; background-color: whitesmoke}
 }
 #fy .buy .fav {margin-right: .5em; font-size: 1.4em}
 #fy .buy .fav {
-    content: url('./img/icons/heart-basic.png');
+    content: url('../assets/icons/heart-basic.png');
     width: 1.3em;
     height: 1.3em;
     appearance: none;
 }
 #fy .buy .fav:hover {cursor: pointer}
-#fy .buy .fav:checked {content: url('./img/icons/heart-filled.png')}
+#fy .buy .fav:checked {content: url('../assets/icons/heart-filled.png')}
 #fy .info {
     display: flex;
     justify-content: space-between;
@@ -523,7 +523,7 @@ footer #desktop #qr {
     width: 25em;
     display: flex;
 }
-footer #desktop #theme, footer #desktop #lang, footer #desktop #themeMenu, footer #desktop #langMenu {
+footer #desktop #theme, footer #desktop #lang, footer #desktop #themeMenu, footer #desktop #lang-menu {
     background-color: lightgray;
     border-radius: 8px;
     padding: .5em 0;
@@ -532,12 +532,12 @@ footer #desktop #theme, footer #desktop #lang {padding-inline: .5em; height: 1.2
 footer #themeMenu {display: none; padding-top: .3em}
 footer #desktop #theme:hover #themeMenu {display: block}
 footer #desktop #lang {width: 7em}
-footer #desktop #langMenu {display: none}
-footer #desktop #lang:hover #langMenu {display: block}
-footer #desktop #langMenu a {display: inline-block; padding-top: .3em}
-footer #desktop #lang:hover #langMenu {display: block}
-footer #desktop #langMenu i {visibility: hidden}
-footer #desktop #langMenu a:hover i {visibility: visible}
+footer #desktop #lang-menu {display: none}
+footer #desktop #lang:hover #lang-menu {display: block}
+footer #desktop #lang-menu a {display: inline-block; padding-top: .3em}
+footer #desktop #lang:hover #lang-menu {display: block}
+footer #desktop #lang-menu i {visibility: hidden}
+footer #desktop #lang-menu a:hover i {visibility: visible}
 footer #qr img {width: 7em; margin-inline: .5em}
 footer #qr span {color: gray}
 footer #icons img {
