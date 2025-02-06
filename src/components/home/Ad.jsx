@@ -1,4 +1,4 @@
-import MenuAd from '../../assets/img/home/menu-ad.webp';
+import MenuAd from '../../assets/img/home/ad.webp';
 
 const Ad = () => {
   return (
