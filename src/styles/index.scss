@@ -353,15 +353,15 @@ main {position: relative; background-color: whitesmoke}
 /*          ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾          */
 
 
-#interest #main {display: flex; overflow: auto}
-#interest .item {text-align: center; margin-inline: .5em}
-#interest .item:hover span {text-decoration: underline}
-#interest img {width: 8em}
-#interest a {color: black; text-decoration: none}
-#interest span {display: block}
-#interest #main::-webkit-scrollbar {height: 6px}
-#interest #main::-webkit-scrollbar-thumb {background-color: rgb(209, 209, 209); border-radius: 10px}
-#interest #main::-webkit-scrollbar-thumb:hover {background-color: rgb(174, 174, 174)}
+#interested #main {display: flex; overflow: auto}
+#interested .item {text-align: center; margin-inline: .5em}
+#interested .item:hover span {text-decoration: underline}
+#interested img {width: 8em}
+#interested a {color: black; text-decoration: none}
+#interested span {display: block}
+#interested #main::-webkit-scrollbar {height: 6px}
+#interested #main::-webkit-scrollbar-thumb {background-color: rgb(209, 209, 209); border-radius: 10px}
+#interested #main::-webkit-scrollbar-thumb:hover {background-color: rgb(174, 174, 174)}
 
 
 /*          _______          */
@@ -689,8 +689,8 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
     }
     #menu-ad #ad img {max-width: 70svw; margin-top: 3svw}
     #frequent {margin-top: 11svw}
-    #frequent #main, #interest span, #fy #main, #fy #more, #searches a {font-size: small}
-    #interest .item img {width: 6em}
+    #frequent #main, #interested span, #fy #main, #fy #more, #searches a {font-size: small}
+    #interested .item img {width: 6em}
     #fy #main {justify-content: center}
     #searches #main {display: flex; overflow: auto}
     #searches #main a {
