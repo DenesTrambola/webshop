@@ -1,7 +1,7 @@
 import FooterDesktopLang from "./FooterDesktopLang";
 import FooterDesktopQR from "./FooterDesktopQR";
 import FooterDesktopSocial from "./FooterDesktopSocial";
-import FooterDesktopTable from "./FooterDesktopTable";
+import FooterDesktopTable from "./FooterDesktopNavs";
 import FooterDesktopTheme from "./FooterDesktopTheme";
 
 const FooterDesktop = () => {

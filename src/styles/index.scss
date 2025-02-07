@@ -577,7 +577,7 @@ footer #mobile #lang a {
 }
 footer #mobile #lang span:hover {text-decoration: none}
 footer #mobile #lang a:hover {border: 2px solid rgb(123, 4, 223); transition: .1s ease border}
-footer #mobile #mainLang {background-color: rgb(123, 4, 223); color: white}
+footer #mobile #main-lang {background-color: rgb(123, 4, 223); color: white}
 footer #mobile #other, footer #mobile #social {
     display: flex;
     justify-content: space-between;
@@ -605,13 +605,13 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
     background-color: rgb(123, 4, 223);
 }
 #bottom div {
-    background-image: url('./img/footer/bottom.png');
+    background-image: url('../assets/img/footer/bottom.png');
     background-position: center;
     background-size: auto 100%;
     background-repeat: no-repeat;
     width: 100%;
-    max-height: 4em;
     height: 4em;
+    max-height: 4em;
     min-height: 3em;
 }
 
