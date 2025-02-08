@@ -171,7 +171,7 @@ header .button a:hover {
 /*          ‾‾‾‾‾‾‾‾          */
 
 
-main > *:not(#menu-ad, #sign-in), footer {padding-inline: 10svw}
+#home-main > *:not(#menu-ad, #sign-in), footer {padding-inline: 10svw}
 .old-price {
     color: gray;
     text-decoration: line-through;
@@ -192,8 +192,8 @@ main > *:not(#menu-ad, #sign-in), footer {padding-inline: 10svw}
 
 
 header, #menu-ad {background-color: white}
-header:has(> #search > #search-input:focus) ~ main {z-index: -1}
-main {position: relative; background-color: whitesmoke}
+header:has(> #search > #search-input:focus) ~ #home-main {z-index: -1}
+#home-main {position: relative; background-color: whitesmoke}
 #menu-ad {
     height: 25em;
     width: 100%;
@@ -499,6 +499,52 @@ main {position: relative; background-color: whitesmoke}
 #searches #custom a span:hover {text-decoration: underline; cursor: pointer}
 
 
+/*          ________          */
+/*          MILITARY          */
+/*          ‾‾‾‾‾‾‾‾          */
+
+
+#military-main {padding-inline: 12svw}
+#military-main img:not(.double) {width: 100%}
+#military-main img:not(#topIMG):hover {cursor: pointer}
+#topImage, #bottomImage {border-radius: 10px}
+#military-main > *, #main section {margin-bottom: 3em}
+#military-main .title {font-size: 1.5em}
+#military-main .items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .8em;
+    margin-top: 1em;
+}
+#military-main .item {
+    border-radius: 8px;
+    padding: .5em;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+}
+#military-main .item:hover {cursor: pointer}
+#military-main .item img:hover ~ span, #military-main .item span:hover {text-decoration: underline}
+#military-main .double {width: 48%; margin: 1em .2em}
+#cold .item {width: 9.3em; height: 14em}
+#woman .item {width: 21.4%}
+#main .item {width: 23%}
+#main button {
+    margin-top: 1em;
+    width: 100%;
+    height: 3em;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    transition: .2s ease background-color;
+}
+#main button:hover {
+    transition: .2s ease background-color;
+    background-color: rgb(229, 229, 229);
+    cursor: pointer;
+}
+
+
 /*          ______          */
 /*          FOOTER          */
 /*          ‾‾‾‾‾‾          */
@@ -626,7 +672,7 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
     #menu-ad #custom-shop {width: 31.5svh}
 }
 @media (max-width: 960px) { /*   TABLET   */
-    main > *:not(#menu-ad, #sign-in), footer {padding-inline: .5em}
+    #home-main > *:not(#menu-ad, #sign-in), footer {padding-inline: .5em}
     #top img {
         max-width: 30em;
         width: 95svw;
@@ -676,7 +722,7 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
     header #darkbg {display: none}
     header #search-input:focus ~ #search-text {background-color: rgb(239, 239, 239)}
 
-    main {z-index: auto}
+    #home-main {z-index: auto}
     #menu-ad #menu, #menu-ad #custom-shop {display: none}
     #sign-in {display: block; padding-top: 1em}
 

@@ -9,7 +9,7 @@ import SidebarMenu from "../components/home/SidebarMenu";
 
 const Home = () => {
   return (
-    <main>
+    <main id="home-main">
       <section id="menu-ad">
         <SidebarMenu />
         <Ad />
