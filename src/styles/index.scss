@@ -506,31 +506,31 @@ header:has(> #search > #search-input:focus) ~ #home-main {z-index: -1}
 
 #military-main {padding-inline: 12svw}
 #military-main img:not(.double) {width: 100%}
-#military-main img:not(#topIMG):hover {cursor: pointer}
-#topImage, #bottomImage {border-radius: 10px}
-#military-main > *, #main section {margin-bottom: 3em}
-#military-main .title {font-size: 1.5em}
-#military-main .items {
+#military-main img:not(#top-img):hover {cursor: pointer}
+#top-image, .military-group {margin-bottom: 3em}
+#top-image, #bottomImage {border-radius: 10px}
+#military-main .military-group-title {font-size: 1.5em}
+#military-main .military-items {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: .8em;
     margin-top: 1em;
 }
-#military-main .item {
+#military-main .military-item {
     border-radius: 8px;
     padding: .5em;
     background-color: white;
     font-weight: bold;
     text-align: center;
 }
-#military-main .item:hover {cursor: pointer}
-#military-main .item img:hover ~ span, #military-main .item span:hover {text-decoration: underline}
+#military-main .military-item:hover {cursor: pointer}
+#military-main .military-item img:hover ~ span, #military-main .military-item span:hover {text-decoration: underline}
 #military-main .double {width: 48%; margin: 1em .2em}
-#cold .item {width: 9.3em; height: 14em}
-#woman .item {width: 21.4%}
-#main .item {width: 23%}
-#main button {
+#cold .military-item {width: 9.3em; height: 14em}
+#woman .military-item {width: 21.4%}
+#military-group .military-item {width: 23%}
+#military-group button {
     margin-top: 1em;
     width: 100%;
     height: 3em;
