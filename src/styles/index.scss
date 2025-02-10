@@ -8,7 +8,7 @@ body {
 body::-webkit-scrollbar {width: 10px}
 body::-webkit-scrollbar-thumb {background-color: rgb(182, 182, 182); border-radius: 10px}
 body::-webkit-scrollbar-thumb:hover {background-color: rgb(141, 141, 141)}
-header a, #menuAd a {
+header a, #menu-ad a {
     text-decoration: none;
     color: black;
 }
@@ -35,11 +35,11 @@ header {
     top: 0;
     z-index: 1;
 }
-header a:has(#headerLogo) {
+header a:has(#header-logo) {
     width: 6.2em;
     height: 2.5em;
 }
-header #headerLogo {width: 100%; margin-left: 1em}
+header #header-logo {width: 100%; margin-left: 1em}
 header span {font-size: .81em}
 header #search {
     border: 1px solid lightgray;
@@ -48,7 +48,7 @@ header #search {
     margin-left: 2em;
 }
 header i {font-size: 1.23rem}
-header #searchInput {
+header #search-input {
     height: 2.5em;
     width: 44svw;
     border: none;
@@ -59,8 +59,8 @@ header #searchInput {
     z-index: 1;
     position: relative;
 }
-header #searchInput:focus {outline: none}
-header #searchText {
+header #search-input:focus {outline: none}
+header #search-text {
     display: inline-block;
     padding: .55em .8em;
     padding-bottom: .65em;
@@ -71,13 +71,13 @@ header #searchText {
     font-weight: bold;
     transition: .1s ease color background-color;
 }
-header #searchText i {display: none}
-header #searchInput:focus ~ #searchText {
+header #search-text i {display: none}
+header #search-input:focus ~ #search-text {
     transition: .1s ease color background-color;
     color: black;
     background-color: lightgray;
 }
-header #searchInput:not(:placeholder-shown) ~ #searchText {
+header #search-input:not(:placeholder-shown) ~ #search-text {
     transition: .1s all ease;
     background-color: rgb(255, 208, 0);
     color: black;
@@ -92,7 +92,7 @@ header #searchInput:not(:placeholder-shown) ~ #searchText {
     visibility: hidden;
     z-index: 0;
 }
-header #searchInput:focus ~ #darkbg {
+header #search-input:focus ~ #darkbg {
     opacity: .3;
     visibility: visible;
     transition: .1s ease all;
@@ -125,25 +125,25 @@ header .button a:hover {
 /*          ‾‾‾‾‾‾‾          */
 
 
-#signIn {
+#sign-in {
     display: none;
     background-color: white;
     display: none;
     padding-inline: .5em;
 }
-#signIn img {
+#sign-in img {
     float: left;
     width: 1.7em;
     margin-top: .5em;
     margin-right: .5em;
 }
-#signIn small {
+#sign-in small {
     display: block;
     color: gray;
     margin-top: .3em;
 }
-#signIn #buttons {margin-top: 1em; text-align: center}
-#signIn button {
+#sign-in #buttons {margin-top: 1em; text-align: center}
+#sign-in button {
     padding: .7em;
     font-weight: bold;
     border-radius: 10px;
@@ -151,19 +151,19 @@ header .button a:hover {
     width: 40svw;
     transition: .2s ease background-color;
 }
-#signIn button:hover {transition: .2s ease background-color; cursor: pointer}
-#signIn #login {
+#sign-in button:hover {transition: .2s ease background-color; cursor: pointer}
+#sign-in #login {
     color: whitesmoke;
     background-color: rgb(138,8,248);
     border: none;
 }
-#signIn #login:hover {background-color: rgb(98,0,209)}
-#signIn #signup {
+#sign-in #login:hover {background-color: rgb(98,0,209)}
+#sign-in #signup {
     color: rgb(138,8,248);
     background-color: white;
     border: 1px solid rgb(138,8,248);
 }
-#signIn #signup:hover {background-color: rgb(241,230,251)}
+#sign-in #signup:hover {background-color: rgb(241,230,251)}
 
 
 /*          ________          */
@@ -171,13 +171,13 @@ header .button a:hover {
 /*          ‾‾‾‾‾‾‾‾          */
 
 
-main > *:not(#menuAd, #signIn), footer {padding-inline: 10svw}
-.oldPrice {
+#home-main > *:not(#menu-ad, #sign-in), footer {padding-inline: 10svw}
+.old-price {
     color: gray;
     text-decoration: line-through;
     margin-top: .5em;
 }
-.newPrice {color: rgb(212, 0, 0); font-weight: bold}
+.new-price {color: rgb(212, 0, 0); font-weight: bold}
 .price {
     display: inline-block;
     color: black;
@@ -191,10 +191,10 @@ main > *:not(#menuAd, #signIn), footer {padding-inline: 10svw}
 /*          ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾          */
 
 
-header, #menuAd {background-color: white}
-header:has(> #search > #searchInput:focus) ~ main {z-index: -1}
-main {position: relative; background-color: whitesmoke}
-#menuAd {
+header, #menu-ad {background-color: white}
+header:has(> #search > #search-input:focus) ~ #home-main {z-index: -1}
+#home-main {position: relative; background-color: whitesmoke}
+#menu-ad {
     height: 25em;
     width: 100%;
     display: flex;
@@ -209,7 +209,7 @@ main {position: relative; background-color: whitesmoke}
 /*          ‾‾‾‾‾‾‾‾          */
 
 
-#menuAd #menu {
+#menu-ad #menu {
     transition: .05s ease background-color;
     width: 18em;
     padding: .5em;
@@ -218,32 +218,32 @@ main {position: relative; background-color: whitesmoke}
     overflow-y: hidden;
     margin: -.6em .5em;
 }
-#menuAd #menu * {display: block; padding: 10px .7em}
-#menuAd #menu .hasSubmenu:after {
+#menu-ad #menu * {display: block; padding: 10px .7em}
+#menu-ad #menu .hasSubmenu:after {
     content: '➤';
     font-size: 1.23rem;
     float: right;
     margin-top: -4px;
     margin-right: -.5em;
 }
-#menuAd #menu :not(.hasSubmenu) {color: blue}
-#menuAd #menu:hover {
+#menu-ad #menu :not(.hasSubmenu) {color: blue}
+#menu-ad #menu:hover {
     transition: .05s ease background-color;
     background-color: rgb(239, 239, 239);
     overflow-y: auto;
 }
-#menuAd #menu::-webkit-scrollbar {
+#menu-ad #menu::-webkit-scrollbar {
     background-color: white;
     width: 6px;
 }
-#menuAd #menu::-webkit-scrollbar-thumb {
+#menu-ad #menu::-webkit-scrollbar-thumb {
     background-color: rgb(193, 193, 193);
     border-radius: 5px;
 }
-#menuAd #menu a {
+#menu-ad #menu a {
     border-radius: 5px;
 }
-#menuAd #menu a:hover {
+#menu-ad #menu a:hover {
     background-color: rgb(138,8,248);
     color: white;
 }
@@ -254,19 +254,19 @@ main {position: relative; background-color: whitesmoke}
 /*          ‾‾‾‾‾‾          */
 
 
-#menuAd #ad {
+#menu-ad #ad {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#menuAd #ad a {
+#menu-ad #ad a {
     margin-top: .2em;
     margin-left: .7em;
     margin-right: .7em;
     text-align: center;
     width: 88%;
 }
-#menuAd #ad img {
+#menu-ad #ad img {
     width: 100%;
     border-radius: 10px;
 }
@@ -277,7 +277,7 @@ main {position: relative; background-color: whitesmoke}
 /*          ‾‾‾‾‾‾‾‾‾‾‾          */
 
 
-#menuAd #shop {
+#menu-ad #custom-shop {
     min-width: 12em;
     max-width: 15em;
     border: 1px solid lightgray;
@@ -287,7 +287,7 @@ main {position: relative; background-color: whitesmoke}
     margin-right: .5em;
     text-align: center;
 }
-#menuAd #shop span {
+#menu-ad #custom-shop span {
     margin-top: 50%;
     font-weight: bold;
     font-size: 1.23rem;
@@ -295,7 +295,7 @@ main {position: relative; background-color: whitesmoke}
     padding-bottom: 1.8em;
     line-height: 1.5em;
 }
-#menuAd #shop a {
+#menu-ad #custom-shop a {
     border: 1px solid rgb(138,8,248);
     border-radius: 8px;
     color: rgb(138,8,248);
@@ -304,7 +304,7 @@ main {position: relative; background-color: whitesmoke}
     transition: .15s ease background-color;
     padding: .5em 2em;
 }
-#menuAd #shop a:hover {
+#menu-ad #custom-shop a:hover {
     transition: .15s ease background-color;
     background-color: rgb(242,229,252);
 }
@@ -317,7 +317,7 @@ main {position: relative; background-color: whitesmoke}
 
 #frequent {margin-top: 1.5em}
 #frequent #main {display: flex; overflow: auto}
-#frequent .type {
+#frequent .group {
     background-color: white;
     width: 20em;
     padding: 1em;
@@ -353,15 +353,15 @@ main {position: relative; background-color: whitesmoke}
 /*          ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾          */
 
 
-#interest #main {display: flex; overflow: auto}
-#interest .item {text-align: center; margin-inline: .5em}
-#interest .item:hover span {text-decoration: underline}
-#interest img {width: 8em}
-#interest a {color: black; text-decoration: none}
-#interest span {display: block}
-#interest #main::-webkit-scrollbar {height: 6px}
-#interest #main::-webkit-scrollbar-thumb {background-color: rgb(209, 209, 209); border-radius: 10px}
-#interest #main::-webkit-scrollbar-thumb:hover {background-color: rgb(174, 174, 174)}
+#interested #main {display: flex; overflow: auto}
+#interested .item {text-align: center; margin-inline: .5em}
+#interested .item:hover span {text-decoration: underline}
+#interested img {width: 8em}
+#interested a {color: black; text-decoration: none}
+#interested span {display: block}
+#interested #main::-webkit-scrollbar {height: 6px}
+#interested #main::-webkit-scrollbar-thumb {background-color: rgb(209, 209, 209); border-radius: 10px}
+#interested #main::-webkit-scrollbar-thumb:hover {background-color: rgb(174, 174, 174)}
 
 
 /*          _______          */
@@ -410,13 +410,13 @@ main {position: relative; background-color: whitesmoke}
 }
 #fy .buy .fav {margin-right: .5em; font-size: 1.4em}
 #fy .buy .fav {
-    content: url('./img/icons/heart-basic.png');
+    content: url('../assets/icons/heart-basic.png');
     width: 1.3em;
     height: 1.3em;
     appearance: none;
 }
 #fy .buy .fav:hover {cursor: pointer}
-#fy .buy .fav:checked {content: url('./img/icons/heart-filled.png')}
+#fy .buy .fav:checked {content: url('../assets/icons/heart-filled.png')}
 #fy .info {
     display: flex;
     justify-content: space-between;
@@ -469,7 +469,7 @@ main {position: relative; background-color: whitesmoke}
     margin: .5em 0;
     padding: 2em 1em;
 }
-#searches #shop {display: flex}
+#searches #custom-shop {display: flex}
 #searches img {width: 6.5em; padding-inline: 1em}
 #searches #text {font-weight: bold; display: block}
 #searches button {
@@ -499,6 +499,52 @@ main {position: relative; background-color: whitesmoke}
 #searches #custom a span:hover {text-decoration: underline; cursor: pointer}
 
 
+/*          ________          */
+/*          MILITARY          */
+/*          ‾‾‾‾‾‾‾‾          */
+
+
+#military-main {padding-inline: 12svw}
+#military-main img:not(.double) {width: 100%}
+#military-main img:not(#top-img):hover {cursor: pointer}
+#top-image, .military-group {margin-bottom: 3em}
+#top-image, #bottomImage {border-radius: 10px}
+#military-main .military-group-title {font-size: 1.5em}
+#military-main .military-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .8em;
+    margin-top: 1em;
+}
+#military-main .military-item {
+    border-radius: 8px;
+    padding: .5em;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+}
+#military-main .military-item:hover {cursor: pointer}
+#military-main .military-item img:hover ~ span, #military-main .military-item span:hover {text-decoration: underline}
+#military-main .double {width: 48%; margin: 1em .2em}
+#cold .military-item {width: 9.3em; height: 14em}
+#woman .military-item {width: 21.4%}
+#military-group .military-item {width: 23%}
+#military-group button {
+    margin-top: 1em;
+    width: 100%;
+    height: 3em;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    transition: .2s ease background-color;
+}
+#main button:hover {
+    transition: .2s ease background-color;
+    background-color: rgb(229, 229, 229);
+    cursor: pointer;
+}
+
+
 /*          ______          */
 /*          FOOTER          */
 /*          ‾‾‾‾‾‾          */
@@ -523,7 +569,7 @@ footer #desktop #qr {
     width: 25em;
     display: flex;
 }
-footer #desktop #theme, footer #desktop #lang, footer #desktop #themeMenu, footer #desktop #langMenu {
+footer #desktop #theme, footer #desktop #lang, footer #desktop #themeMenu, footer #desktop #lang-menu {
     background-color: lightgray;
     border-radius: 8px;
     padding: .5em 0;
@@ -532,12 +578,12 @@ footer #desktop #theme, footer #desktop #lang {padding-inline: .5em; height: 1.2
 footer #themeMenu {display: none; padding-top: .3em}
 footer #desktop #theme:hover #themeMenu {display: block}
 footer #desktop #lang {width: 7em}
-footer #desktop #langMenu {display: none}
-footer #desktop #lang:hover #langMenu {display: block}
-footer #desktop #langMenu a {display: inline-block; padding-top: .3em}
-footer #desktop #lang:hover #langMenu {display: block}
-footer #desktop #langMenu i {visibility: hidden}
-footer #desktop #langMenu a:hover i {visibility: visible}
+footer #desktop #lang-menu {display: none}
+footer #desktop #lang:hover #lang-menu {display: block}
+footer #desktop #lang-menu a {display: inline-block; padding-top: .3em}
+footer #desktop #lang:hover #lang-menu {display: block}
+footer #desktop #lang-menu i {visibility: hidden}
+footer #desktop #lang-menu a:hover i {visibility: visible}
 footer #qr img {width: 7em; margin-inline: .5em}
 footer #qr span {color: gray}
 footer #icons img {
@@ -577,7 +623,7 @@ footer #mobile #lang a {
 }
 footer #mobile #lang span:hover {text-decoration: none}
 footer #mobile #lang a:hover {border: 2px solid rgb(123, 4, 223); transition: .1s ease border}
-footer #mobile #mainLang {background-color: rgb(123, 4, 223); color: white}
+footer #mobile #main-lang {background-color: rgb(123, 4, 223); color: white}
 footer #mobile #other, footer #mobile #social {
     display: flex;
     justify-content: space-between;
@@ -605,13 +651,13 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
     background-color: rgb(123, 4, 223);
 }
 #bottom div {
-    background-image: url('./img/footer/bottom.png');
+    background-image: url('../assets/img/footer/bottom.png');
     background-position: center;
     background-size: auto 100%;
     background-repeat: no-repeat;
     width: 100%;
-    max-height: 4em;
     height: 4em;
+    max-height: 4em;
     min-height: 3em;
 }
 
@@ -622,11 +668,11 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
 
 
 @media (max-width: 1520px) { /*   AD SHRINK   */
-    #menuAd {height: 26.3svw}
-    #menuAd #shop {width: 31.5svh}
+    #menu-ad {height: 26.3svw}
+    #menu-ad #custom-shop {width: 31.5svh}
 }
 @media (max-width: 960px) { /*   TABLET   */
-    main > *:not(#menuAd, #signIn), footer {padding-inline: .5em}
+    #home-main > *:not(#menu-ad, #sign-in), footer {padding-inline: .5em}
     #top img {
         max-width: 30em;
         width: 95svw;
@@ -636,15 +682,15 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
         align-items: start;
         padding-top: .75em;
     }
-    header a:has(#headerLogo) {display: none}
+    header a:has(#header-logo) {display: none}
     header #search {
         margin: 0;
         background-color: white;
     }
-    header #searchText span {display: none}
-    header #searchText i {display: inline-block}
-    header #searchText {width: 1.5em; margin-right: 0}
-    header #searchInput {width: 83.5svw}
+    header #search-text span {display: none}
+    header #search-text i {display: inline-block}
+    header #search-text {width: 1.5em; margin-right: 0}
+    header #search-input {width: 83.5svw}
     header #login, header #fav {display: none}
     header #home, header #catalog, header #chat, header #profile {display: flex}
     header #buttons {
@@ -674,23 +720,23 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
     header #profile a {padding-right: 2em}
     header #buttons a:hover {transition: none}
     header #darkbg {display: none}
-    header #searchInput:focus ~ #searchText {background-color: rgb(239, 239, 239)}
+    header #search-input:focus ~ #search-text {background-color: rgb(239, 239, 239)}
 
-    main {z-index: auto}
-    #menuAd #menu, #menuAd #shop {display: none}
-    #signIn {display: block; padding-top: 1em}
+    #home-main {z-index: auto}
+    #menu-ad #menu, #menu-ad #custom-shop {display: none}
+    #sign-in {display: block; padding-top: 1em}
 
-    #menuAd #ad {
+    #menu-ad #ad {
         height: 40svw;
         background-color: whitesmoke;
         display: block;
         text-align: center;
         width: 100svw;
     }
-    #menuAd #ad img {max-width: 70svw; margin-top: 3svw}
+    #menu-ad #ad img {max-width: 70svw; margin-top: 3svw}
     #frequent {margin-top: 11svw}
-    #frequent #main, #interest span, #fy #main, #fy #more, #searches a {font-size: small}
-    #interest .item img {width: 6em}
+    #frequent #main, #interested span, #fy #main, #fy #more, #searches a {font-size: small}
+    #interested .item img {width: 6em}
     #fy #main {justify-content: center}
     #searches #main {display: flex; overflow: auto}
     #searches #main a {
@@ -712,7 +758,7 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
 }
 @media (max-width: 545px) { /*   PHONE   */
     #top {height: 7.4svw}
-    header #searchText {
+    header #search-text {
         width: 2svw;
         padding-left: 1.5svw;
         padding-right: 4.5svw;
@@ -723,7 +769,7 @@ footer #mobile #theme i:last-child {color: rgb(84, 84, 84)}
     header #buttons a:first-child {margin-left: 0}
     header #buttons span {font-size: 3svw}
     #searches #custom {background-color: whitesmoke; flex-direction: column}
-    #searches #shop, #searches #links {
+    #searches #custom-shop, #searches #links {
         background-color: white;
         border-radius: 7px;
         padding: 1em;
