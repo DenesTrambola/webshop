@@ -1,13 +1,13 @@
 import FooterDesktopLang from "./FooterDesktopLang";
 import FooterDesktopQR from "./FooterDesktopQR";
 import FooterDesktopSocial from "./FooterDesktopSocial";
-import FooterDesktopTable from "./FooterDesktopNavs";
+import FooterDesktopNavs from "./FooterDesktopNavs";
 import FooterDesktopTheme from "./FooterDesktopTheme";
 
 const FooterDesktop = () => {
   return (
     <section id="desktop">
-      <FooterDesktopTable />
+      <FooterDesktopNavs />
 
       <div id="other">
         <FooterDesktopQR />
