@@ -1,18 +1,17 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckDouble } from '@fortawesome/free-solid-svg-icons';
-import ForYou1 from '../../../assets/img/home/foryou/foryou1.png'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckDouble } from "@fortawesome/free-solid-svg-icons";
 
-const ForYouItem = () => {
+const ForYouItem = ({ product }) => {
   return (
     <div className="item">
       <a>
-        <img src={ForYou1} loading="lazy" />
-        <span>Notebook Pixus Vix Lite (4897058531602) wn</span>
+        <img src={product.image} alt={product.name} loading="lazy" />
+        <span>{product.name}</span>
       </a>
 
-      <span className="ready">Ready to ship</span>
-      <small className="old-price">9 553.75 ₴</small>
-      <span className="new-price">8 120.69 ₴</span>
+      <span className="ready">{product.isAvailable ? "Ready to ship" : "Out of stock"}</span>
+      {product.price.old && <small className="old-price">{product.price.old} ₴</small>}
+      <span className="new-price">{product.price.current} ₴</span>
 
       <div className="buy">
         <button>Buy</button>
@@ -21,17 +20,19 @@ const ForYouItem = () => {
 
       <div className="info">
         <div className="loc">
-          <small>wiinshop</small>
-          <small>Ukraine</small>
+          <small>{product.storeId}</small>
+          <small>{product.country}</small>
         </div>
 
         <div className="rating">
-          <i><FontAwesomeIcon icon={faCheckDouble} /></i>
-          <small>98%</small>
+          <i>
+            <FontAwesomeIcon icon={faCheckDouble} />
+          </i>
+          <small>{product.rating}%</small>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default ForYouItem;
