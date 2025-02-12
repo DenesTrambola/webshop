@@ -20,9 +20,10 @@ const FrequentSection = () => {
 
       <div id="main">
 
-        {categories.map(category => <FrequentGroup
+        {categories.map((category, index) => <FrequentGroup
           key={category}
           category={category}
+          image={`/images/categories/${index + 1}.png`}
           products={products
             .filter(product => product.category === category)
             .slice(0, 3)}
