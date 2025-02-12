@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import ForYouItem from "./ForYouItem";
 
 
-// TODO: fetch only products which are visible
+// TODO: fetch only products that are visible
 
 
 const ForYouSection = () => {

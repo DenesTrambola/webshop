@@ -11,7 +11,7 @@ const ForYouItem = ({ product }) => {
 
       <span className="ready">{product.isAvailable ? "Ready to ship" : "Out of stock"}</span>
       {product.price.old && <small className="old-price">{product.price.old} ₴</small>}
-      <span className="new-price">{product.price.current} ₴</span>
+      <span className={product.price.old ? 'new-price' : 'price'}>{product.price.current} ₴</span>
 
       <div className="buy">
         <button>Buy</button>
