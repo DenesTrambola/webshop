@@ -31,7 +31,7 @@
     {
       "id": 3,
       "name": "Tablet Pixus Titan 8/128Gb 10,4 2K",
-      "category": "Uncategorized",
+      "category": "Gifts, hobbies, books",
       "price": {
         "old": 10004,
         "current": 8003
@@ -45,7 +45,7 @@
     {
       "id": 4,
       "name": "263-5 Matrix loop SAMSUNG NP300E",
-      "category": "Uncategorized",
+      "category": "Engineering and electrical engineering",
       "price": {
         "old": null,
         "current": 100
@@ -87,7 +87,7 @@
     {
       "id": 7,
       "name": "FMA Molle hard case for mobile phone",
-      "category": "Uncategorized",
+      "category": "Gifts, hobbies, books",
       "price": {
         "old": null,
         "current": 1000
@@ -101,7 +101,7 @@
     {
       "id": 8,
       "name": "Active stylus for writing and drawing",
-      "category": "Uncategorized",
+      "category": "Gifts, hobbies, books",
       "price": {
         "old": 850,
         "current": 699
@@ -157,7 +157,7 @@
     {
       "id": 12,
       "name": "BNM Cable HDMI - HDMI 10m reinforced in the winding",
-      "category": "Uncategorized",
+      "category": "Engineering and electrical engineering",
       "price": {
         "old": 456,
         "current": 355.68
@@ -171,7 +171,7 @@
     {
       "id": 13,
       "name": "BNM Portable bluetooth speaker moisture resistant",
-      "category": "Uncategorized",
+      "category": "Gifts, hobbies, books",
       "price": {
         "old": 674,
         "current": 525.72
@@ -185,7 +185,7 @@
     {
       "id": 14,
       "name": "BNM Flexible phone holder with suction cups",
-      "category": "Uncategorized",
+      "category": "Gifts, hobbies, books",
       "price": {
         "old": 310,
         "current": 241.8
@@ -199,7 +199,7 @@
     {
       "id": 15,
       "name": "Acoustic system Large speaker Bluetooth C",
-      "category": "Uncategorized",
+      "category": "Gifts, hobbies, books",
       "price": {
         "old": 10999,
         "current": 8999
@@ -227,7 +227,7 @@
     {
       "id": 17,
       "name": "VR Shinecon 10.0 + controller T3 VR glasses",
-      "category": "Uncategorized",
+      "category": "Gifts, hobbies, books",
       "price": {
         "old": null,
         "current": 1120
@@ -241,7 +241,7 @@
     {
       "id": 18,
       "name": "Game steering wheel PXN V3 PRO (PC, PS3, PS4, X-ONE)",
-      "category": "Wedding goods",
+      "category": "Gifts, hobbies, books",
       "price": {
         "old": 3690,
         "current": 3190
@@ -255,7 +255,7 @@
     {
       "id": 19,
       "name": "Hair removal brush",
-      "category": "Uncategorized",
+      "category": "Means for cleaning wool",
       "price": {
         "old": 555,
         "current": 282
@@ -269,7 +269,7 @@
     {
       "id": 20,
       "name": "Hair removal brush",
-      "category": "Uncategorized",
+      "category": "Means for cleaning wool",
       "price": {
         "old": 555,
         "current": 282
@@ -283,7 +283,7 @@
     {
       "id": 21,
       "name": "Brush scraper",
-      "category": "Uncategorized",
+      "category": "Means for cleaning wool",
       "price": {
         "old": null,
         "current": 30
@@ -297,7 +297,7 @@
     {
       "id": 22,
       "name": "Polish for plastic",
-      "category": "House and garden",
+      "category": "Polishers",
       "price": {
         "old": 382.43,
         "current": 325.07
@@ -311,7 +311,7 @@
     {
       "id": 23,
       "name": "Means to asepsis",
-      "category": "Uncategorized",
+      "category": "Polishers",
       "price": {
         "old": 204,
         "current": 163
@@ -325,7 +325,7 @@
     {
       "id": 24,
       "name": "Plastic restorer",
-      "category": "House and garden",
+      "category": "Polishers",
       "price": {
         "old": 432.13,
         "current": 367.31
@@ -339,7 +339,7 @@
     {
       "id": 25,
       "name": "SDF Puma men's socks",
-      "category": "Clothes and shoes",
+      "category": "Men's socks",
       "price": {
         "old": 570,
         "current": 370
@@ -353,7 +353,7 @@
     {
       "id": 26,
       "name": "SDF Puma men's socks",
-      "category": "Clothes and shoes",
+      "category": "Men's socks",
       "price": {
         "old": 570,
         "current": 370
@@ -367,7 +367,7 @@
     {
       "id": 27,
       "name": "UAS MS men's socks",
-      "category": "Clothes and shoes",
+      "category": "Men's socks",
       "price": {
         "old": null,
         "current": 570
@@ -381,7 +381,7 @@
     {
       "id": 28,
       "name": "Microstop nitrile gloves",
-      "category": "Sports and recreation",
+      "category": "Medical gloves",
       "price": {
         "old": 250,
         "current": 195
@@ -395,7 +395,7 @@
     {
       "id": 29,
       "name": "Microstop nitrile gloves",
-      "category": "Sports and recreation",
+      "category": "Medical gloves",
       "price": {
         "old": 250,
         "current": 195
@@ -409,7 +409,7 @@
     {
       "id": 30,
       "name": "Nitrile gloves L OPIMALITY",
-      "category": "Sports and recreation",
+      "category": "Medical gloves",
       "price": {
         "old": null,
         "current": 165
@@ -423,7 +423,7 @@
     {
       "id": 31,
       "name": "Spaghetti pasta",
-      "category": "Supermarket Prom",
+      "category": "Pasta",
       "price": {
         "old": 984,
         "current": 806.88
@@ -437,7 +437,7 @@
     {
       "id": 32,
       "name": "Funchoza noodles",
-      "category": "Supermarket Prom",
+      "category": "Pasta",
       "price": {
         "old": null,
         "current": 139
@@ -451,7 +451,7 @@
     {
       "id": 33,
       "name": "Soy glass noodles",
-      "category": "Supermarket Prom",
+      "category": "Pasta",
       "price": {
         "old": 78.12,
         "current": 70.31
@@ -465,7 +465,7 @@
     {
       "id": 34,
       "name": "GARBER Apple",
-      "category": "Supermarket Prom",
+      "category": "Children's mashed potatoes",
       "price": {
         "old": 41,
         "current": 32.8
@@ -479,7 +479,7 @@
     {
       "id": 35,
       "name": "Children's puree Green",
-      "category": "Supermarket Prom",
+      "category": "Children's mashed potatoes",
       "price": {
         "old": 168.43,
         "current": 143.17
@@ -493,7 +493,7 @@
     {
       "id": 36,
       "name": "Fruit puree strawberry",
-      "category": "Supermarket Prom",
+      "category": "Children's mashed potatoes",
       "price": {
         "old": null,
         "current": 70
@@ -507,7 +507,7 @@
     {
       "id": 37,
       "name": "Vegetable milk",
-      "category": "Supermarket Prom",
+      "category": "Plant-based dairy products",
       "price": {
         "old": null,
         "current": 150
@@ -521,7 +521,7 @@
     {
       "id": 38,
       "name": "Alpro coconut milk",
-      "category": "Supermarket Prom",
+      "category": "Plant-based dairy products",
       "price": {
         "old": null,
         "current": 150
@@ -535,7 +535,7 @@
     {
       "id": 39,
       "name": "Vegetable milk",
-      "category": "Supermarket Prom",
+      "category": "Plant-based dairy products",
       "price": {
         "old": null,
         "current": 79
@@ -549,7 +549,7 @@
     {
       "id": 40,
       "name": "Beewax polish",
-      "category": "House and garden",
+      "category": "Furniture polishes",
       "price": {
         "old": 324.8,
         "current": 124.8
@@ -563,7 +563,7 @@
     {
       "id": 41,
       "name": "Natural polish",
-      "category": "House and garden",
+      "category": "Furniture polishes",
       "price": {
         "old": null,
         "current": 399
@@ -577,7 +577,7 @@
     {
       "id": 42,
       "name": "Spray - polish for furniture",
-      "category": "House and garden",
+      "category": "Furniture polishes",
       "price": {
         "old": null,
         "current": 154
@@ -591,7 +591,7 @@
     {
       "id": 43,
       "name": "Dishes for cats Trixie",
-      "category": "Pets and pet products",
+      "category": "Means for animal hygiene",
       "price": {
         "old": 265.08,
         "current": 225.32
@@ -605,7 +605,7 @@
     {
       "id": 44,
       "name": "Electric roller brush",
-      "category": "Uncategorized",
+      "category": "Means for animal hygiene",
       "price": {
         "old": 461,
         "current": 369
@@ -619,7 +619,7 @@
     {
       "id": 45,
       "name": "Dog toothbrush",
-      "category": "Pets and pet products",
+      "category": "Means for animal hygiene",
       "price": {
         "old": 224,
         "current": 179
@@ -633,7 +633,7 @@
     {
       "id": 46,
       "name": "Gold earring-piercing",
-      "category": "Accessories and decorations",
+      "category": "Jewerly for piercing",
       "price": {
         "old": null,
         "current": 1892
@@ -647,7 +647,7 @@
     {
       "id": 47,
       "name": "Studex earrings",
-      "category": "Accessories and decorations",
+      "category": "Jewerly for piercing",
       "price": {
         "old": null,
         "current": 121
@@ -661,7 +661,7 @@
     {
       "id": 48,
       "name": "Piercing earrings",
-      "category": "Accessories and decorations",
+      "category": "Jewerly for piercing",
       "price": {
         "old": null,
         "current": 110
@@ -675,7 +675,7 @@
     {
       "id": 49,
       "name": "Thermal set",
-      "category": "Uncategorized",
+      "category": "Clothes and shoes",
       "price": {
         "old": null,
         "current": 635
@@ -689,7 +689,7 @@
     {
       "id": 50,
       "name": "Winter camouflage suit",
-      "category": "Military",
+      "category": "Clothes and shoes",
       "price": {
         "old": null,
         "current": 3700
@@ -703,7 +703,7 @@
     {
       "id": 51,
       "name": "Thermose",
-      "category": "Uncategorized",
+      "category": "House and garden",
       "price": {
         "old": null,
         "current": 489
@@ -717,7 +717,7 @@
     {
       "id": 52,
       "name": "Folding teapot",
-      "category": "Uncategorized",
+      "category": "House and garden",
       "price": {
         "old": null,
         "current": 427
@@ -731,7 +731,7 @@
     {
       "id": 53,
       "name": "Gas equipment",
-      "category": "Uncategorized",
+      "category": "House and garden",
       "price": {
         "old": null,
         "current": 321
@@ -745,7 +745,7 @@
     {
       "id": 54,
       "name": "Generator",
-      "category": "Uncategorized",
+      "category": "Engineering and electrical engineering",
       "price": {
         "old": null,
         "current": 7499
@@ -773,7 +773,7 @@
     {
       "id": 56,
       "name": "Salt warmer",
-      "category": "Uncategorized",
+      "category": "House and garden",
       "price": {
         "old": null,
         "current": 1160
@@ -857,7 +857,7 @@
     {
       "id": 62,
       "name": "Fleece sweater",
-      "category": "Uncategorized",
+      "category": "Clothes and shoes",
       "price": {
         "old": null,
         "current": 2209
@@ -899,7 +899,7 @@
     {
       "id": 65,
       "name": "Male Boxer",
-      "category": "Uncategorized",
+      "category": "Clothes and shoes",
       "price": {
         "old": null,
         "current": 469
@@ -1011,7 +1011,7 @@
     {
       "id": 73,
       "name": "Gas Mask",
-      "category": "Uncategorized",
+      "category": "Military",
       "price": {
         "old": null,
         "current": 780
@@ -1081,7 +1081,7 @@
     {
       "id": 78,
       "name": "Mattress",
-      "category": "Uncategorized",
+      "category": "House and garden",
       "price": {
         "old": null,
         "current": 1999
@@ -1109,7 +1109,7 @@
     {
       "id": 80,
       "name": "Light",
-      "category": "Uncategorized",
+      "category": "House and garden",
       "price": {
         "old": null,
         "current": 709
@@ -1123,7 +1123,7 @@
     {
       "id": 81,
       "name": "Disposable souls",
-      "category": "Uncategorized",
+      "category": "Beauty and health",
       "price": {
         "old": null,
         "current": 435
@@ -1165,7 +1165,7 @@
     {
       "id": 84,
       "name": "Foot care",
-      "category": "Auto, moto",
+      "category": "Beauty and health",
       "price": {
         "old": null,
         "current": 250
@@ -1249,7 +1249,7 @@
     {
       "id": 90,
       "name": "Rubber slippers",
-      "category": "Uncategorized",
+      "category": "Clothes and shoes",
       "price": {
         "old": null,
         "current": 320
