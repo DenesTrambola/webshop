@@ -11,7 +11,7 @@
       "image": "/images/products/1.png",
       "isAvailable": true,
       "rating": 98,
-      "storeId": 1,
+      "store": "wiinshop",
       "country": "Ukraine"
     },
     {
@@ -25,7 +25,7 @@
       "image": "/images/products/2.png",
       "isAvailable": true,
       "rating": 96,
-      "storeId": 2,
+      "store": "MANGO",
       "country": "Ukraine"
     },
     {
@@ -39,7 +39,7 @@
       "image": "/images/products/3.png",
       "isAvailable": true,
       "rating": 96,
-      "storeId": 2,
+      "store": "MANGO",
       "country": "Ukraine"
     },
     {
@@ -53,7 +53,7 @@
       "image": "/images/products/4.png",
       "isAvailable": true,
       "rating": 96,
-      "storeId": 3,
+      "store": "MegaNotik",
       "country": "Ukraine"
     },
     {
@@ -67,7 +67,7 @@
       "image": "/images/products/5.png",
       "isAvailable": true,
       "rating": 94,
-      "storeId": 4,
+      "store": "Technomag",
       "country": "Ukraine"
     },
     {
@@ -81,7 +81,7 @@
       "image": "/images/products/6.png",
       "isAvailable": true,
       "rating": 100,
-      "storeId": 5,
+      "store": "MobilaX",
       "country": "Ukraine"
     },
     {
@@ -95,7 +95,7 @@
       "image": "/images/products/7.png",
       "isAvailable": true,
       "rating": 99,
-      "storeId": 6,
+      "store": "Каратель",
       "country": "Ukraine"
     },
     {
@@ -109,7 +109,7 @@
       "image": "/images/products/8.png",
       "isAvailable": true,
       "rating": 99,
-      "storeId": 7,
+      "store": "Savetech",
       "country": "Ukraine"
     },
     {
@@ -123,7 +123,7 @@
       "image": "/images/products/9.png",
       "isAvailable": true,
       "rating": 100,
-      "storeId": 8,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -137,7 +137,7 @@
       "image": "/images/products/10.png",
       "isAvailable": true,
       "rating": 96,
-      "storeId": 2,
+      "store": "MANGO",
       "country": "Ukraine"
     },
     {
@@ -151,7 +151,7 @@
       "image": "/images/products/11.png",
       "isAvailable": true,
       "rating": 96,
-      "storeId": 8,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -165,7 +165,7 @@
       "image": "/images/products/12.png",
       "isAvailable": true,
       "rating": 100,
-      "storeId": 8,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -179,7 +179,7 @@
       "image": "/images/products/13.png",
       "isAvailable": true,
       "rating": 100,
-      "storeId": 8,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -193,7 +193,7 @@
       "image": "/images/products/14.png",
       "isAvailable": true,
       "rating": 100,
-      "storeId": 8,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -207,7 +207,7 @@
       "image": "/images/products/15.png",
       "isAvailable": true,
       "rating": 98,
-      "storeId": 9,
+      "store": "Смерека",
       "country": "Kyiv"
     },
     {
@@ -221,7 +221,7 @@
       "image": "/images/products/16.png",
       "isAvailable": true,
       "rating": 100,
-      "storeId": 10,
+      "store": "Memory Store",
       "country": "Kyiv"
     },
     {
@@ -235,7 +235,7 @@
       "image": "/images/products/17.png",
       "isAvailable": true,
       "rating": 100,
-      "storeId": 11,
+      "store": "Moto360",
       "country": "Ukraine"
     },
     {
@@ -249,7 +249,7 @@
       "image": "/images/products/18.png",
       "isAvailable": true,
       "rating": 98,
-      "storeId": 12,
+      "store": "Смерека",
       "country": "Ukraine"
     },
     {
@@ -263,7 +263,7 @@
       "image": "/images/products/19.png",
       "isAvailable": true,
       "rating": 95,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -277,7 +277,7 @@
       "image": "/images/products/20.png",
       "isAvailable": true,
       "rating": 96,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Germany"
     },
     {
@@ -291,7 +291,7 @@
       "image": "/images/products/21.png",
       "isAvailable": true,
       "rating": 97,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -305,7 +305,7 @@
       "image": "/images/products/22.png",
       "isAvailable": true,
       "rating": 98,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -319,7 +319,7 @@
       "image": "/images/products/23.png",
       "isAvailable": true,
       "rating": 99,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -333,7 +333,7 @@
       "image": "/images/products/24.png",
       "isAvailable": true,
       "rating": 91,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -347,7 +347,7 @@
       "image": "/images/products/25.png",
       "isAvailable": true,
       "rating": 92,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Germany"
     },
     {
@@ -361,7 +361,7 @@
       "image": "/images/products/26.png",
       "isAvailable": true,
       "rating": 93,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -375,7 +375,7 @@
       "image": "/images/products/27.png",
       "isAvailable": true,
       "rating": 94,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -389,7 +389,7 @@
       "image": "/images/products/28.png",
       "isAvailable": true,
       "rating": 95,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -403,7 +403,7 @@
       "image": "/images/products/29.png",
       "isAvailable": true,
       "rating": 96,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -417,7 +417,7 @@
       "image": "/images/products/30.png",
       "isAvailable": true,
       "rating": 97,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Germany"
     },
     {
@@ -431,7 +431,7 @@
       "image": "/images/products/31.png",
       "isAvailable": true,
       "rating": 99,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -445,7 +445,7 @@
       "image": "/images/products/32.png",
       "isAvailable": true,
       "rating": 91,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -459,7 +459,7 @@
       "image": "/images/products/33.png",
       "isAvailable": true,
       "rating": 92,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -473,7 +473,7 @@
       "image": "/images/products/34.png",
       "isAvailable": true,
       "rating": 93,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -487,7 +487,7 @@
       "image": "/images/products/35.png",
       "isAvailable": true,
       "rating": 94,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -501,7 +501,7 @@
       "image": "/images/products/36.png",
       "isAvailable": true,
       "rating": 95,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -515,7 +515,7 @@
       "image": "/images/products/37.png",
       "isAvailable": true,
       "rating": 96,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -529,7 +529,7 @@
       "image": "/images/products/38.png",
       "isAvailable": true,
       "rating": 97,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -543,7 +543,7 @@
       "image": "/images/products/39.png",
       "isAvailable": true,
       "rating": 98,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -557,7 +557,7 @@
       "image": "/images/products/40.png",
       "isAvailable": true,
       "rating": 99,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -571,7 +571,7 @@
       "image": "/images/products/41.png",
       "isAvailable": true,
       "rating": 91,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Germany"
     },
     {
@@ -585,7 +585,7 @@
       "image": "/images/products/42.png",
       "isAvailable": true,
       "rating": 92,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Germany"
     },
     {
@@ -599,7 +599,7 @@
       "image": "/images/products/43.png",
       "isAvailable": true,
       "rating": 93,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -613,7 +613,7 @@
       "image": "/images/products/44.png",
       "isAvailable": true,
       "rating": 94,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -627,7 +627,7 @@
       "image": "/images/products/45.png",
       "isAvailable": true,
       "rating": 95,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -641,7 +641,7 @@
       "image": "/images/products/46.png",
       "isAvailable": true,
       "rating": 96,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -655,7 +655,7 @@
       "image": "/images/products/47.png",
       "isAvailable": true,
       "rating": 97,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -669,7 +669,7 @@
       "image": "/images/products/48.png",
       "isAvailable": true,
       "rating": 98,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -683,7 +683,7 @@
       "image": "/images/products/49.png",
       "isAvailable": true,
       "rating": 99,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Germany"
     },
     {
@@ -697,7 +697,7 @@
       "image": "/images/products/50.png",
       "isAvailable": true,
       "rating": 91,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -711,7 +711,7 @@
       "image": "/images/products/51.png",
       "isAvailable": true,
       "rating": 92,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -725,7 +725,7 @@
       "image": "/images/products/52.png",
       "isAvailable": true,
       "rating": 93,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -739,7 +739,7 @@
       "image": "/images/products/53.png",
       "isAvailable": true,
       "rating": 94,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -753,7 +753,7 @@
       "image": "/images/products/54.png",
       "isAvailable": true,
       "rating": 95,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -767,7 +767,7 @@
       "image": "/images/products/55.png",
       "isAvailable": true,
       "rating": 96,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -781,7 +781,7 @@
       "image": "/images/products/56.png",
       "isAvailable": true,
       "rating": 97,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -795,7 +795,7 @@
       "image": "/images/products/57.png",
       "isAvailable": true,
       "rating": 98,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Germany"
     },
     {
@@ -809,7 +809,7 @@
       "image": "/images/products/58.png",
       "isAvailable": true,
       "rating": 99,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -823,7 +823,7 @@
       "image": "/images/products/59.png",
       "isAvailable": true,
       "rating": 91,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -837,7 +837,7 @@
       "image": "/images/products/60.png",
       "isAvailable": true,
       "rating": 92,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -851,7 +851,7 @@
       "image": "/images/products/61.png",
       "isAvailable": true,
       "rating": 93,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -865,7 +865,7 @@
       "image": "/images/products/62.png",
       "isAvailable": true,
       "rating": 94,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -879,7 +879,7 @@
       "image": "/images/products/63.png",
       "isAvailable": true,
       "rating": 95,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -893,7 +893,7 @@
       "image": "/images/products/64.png",
       "isAvailable": true,
       "rating": 96,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -907,7 +907,7 @@
       "image": "/images/products/65.png",
       "isAvailable": true,
       "rating": 97,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -921,7 +921,7 @@
       "image": "/images/products/66.png",
       "isAvailable": true,
       "rating": 98,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -935,7 +935,7 @@
       "image": "/images/products/67.png",
       "isAvailable": true,
       "rating": 99,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Germany"
     },
     {
@@ -949,7 +949,7 @@
       "image": "/images/products/68.png",
       "isAvailable": true,
       "rating": 91,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -963,7 +963,7 @@
       "image": "/images/products/69.png",
       "isAvailable": true,
       "rating": 92,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -977,7 +977,7 @@
       "image": "/images/products/70.png",
       "isAvailable": true,
       "rating": 93,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -991,7 +991,7 @@
       "image": "/images/products/71.png",
       "isAvailable": true,
       "rating": 94,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1005,7 +1005,7 @@
       "image": "/images/products/72.png",
       "isAvailable": true,
       "rating": 95,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1019,7 +1019,7 @@
       "image": "/images/products/73.png",
       "isAvailable": true,
       "rating": 96,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1033,7 +1033,7 @@
       "image": "/images/products/74.png",
       "isAvailable": true,
       "rating": 97,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1047,7 +1047,7 @@
       "image": "/images/products/75.png",
       "isAvailable": true,
       "rating": 98,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -1061,7 +1061,7 @@
       "image": "/images/products/76.png",
       "isAvailable": true,
       "rating": 99,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1075,7 +1075,7 @@
       "image": "/images/products/77.png",
       "isAvailable": true,
       "rating": 91,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1089,7 +1089,7 @@
       "image": "/images/products/78.png",
       "isAvailable": true,
       "rating": 92,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1103,7 +1103,7 @@
       "image": "/images/products/79.png",
       "isAvailable": true,
       "rating": 93,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Germany"
     },
     {
@@ -1117,7 +1117,7 @@
       "image": "/images/products/80.png",
       "isAvailable": true,
       "rating": 94,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1131,7 +1131,7 @@
       "image": "/images/products/81.png",
       "isAvailable": true,
       "rating": 95,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1145,7 +1145,7 @@
       "image": "/images/products/82.png",
       "isAvailable": true,
       "rating": 96,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1159,7 +1159,7 @@
       "image": "/images/products/83.png",
       "isAvailable": true,
       "rating": 97,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1173,7 +1173,7 @@
       "image": "/images/products/84.png",
       "isAvailable": true,
       "rating": 98,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -1187,7 +1187,7 @@
       "image": "/images/products/85.png",
       "isAvailable": true,
       "rating": 99,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1201,7 +1201,7 @@
       "image": "/images/products/86.png",
       "isAvailable": true,
       "rating": 91,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1215,7 +1215,7 @@
       "image": "/images/products/87.png",
       "isAvailable": true,
       "rating": 92,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Ukraine"
     },
     {
@@ -1229,7 +1229,7 @@
       "image": "/images/products/88.png",
       "isAvailable": true,
       "rating": 93,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Germany"
     },
     {
@@ -1243,7 +1243,7 @@
       "image": "/images/products/89.png",
       "isAvailable": true,
       "rating": 94,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Hungary"
     },
     {
@@ -1257,7 +1257,7 @@
       "image": "/images/products/90.png",
       "isAvailable": true,
       "rating": 95,
-      "storeId": 12,
+      "store": "BIG SHOP",
       "country": "Germany"
     }
   ]

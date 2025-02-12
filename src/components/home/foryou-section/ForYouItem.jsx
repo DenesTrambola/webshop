@@ -20,7 +20,7 @@ const ForYouItem = ({ product }) => {
 
       <div className="info">
         <div className="loc">
-          <small>{product.storeId}</small>
+          <small>{product.store}</small>
           <small>{product.country}</small>
         </div>
 
