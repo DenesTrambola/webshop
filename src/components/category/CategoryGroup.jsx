@@ -1,10 +1,10 @@
 import ProductPreview from "../product/ProductPreview";
 
-const MilitaryGroup = () => {
+const CategoryGroup = () => {
   return (
     <section className="category-item">
     </section>
   );
 }
 
-export default MilitaryGroup;
+export default CategoryGroup;
