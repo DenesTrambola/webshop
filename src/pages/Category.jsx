@@ -24,7 +24,7 @@ const Category = () => {
       <h1 className="category-group-title">{fullCategory}</h1>
 
       <div id="category-items">
-        {products.map(product => <Product product={product} />)}
+        {products.map(product => <Product key={product.id} product={product} />)}
       </div>
     </main>
   );

@@ -2,7 +2,7 @@ import FrequentGroup from "./FrequentGroup";
 
 const FrequentSection = ({products}) => {
   const categories = ["Means for cleaning wool", "Polishers", "Men's socks", "Medical gloves", "Pasta",
-    "Children's mashed potatoes", "Plant-based dairy products", "Furniture polishes", "Means for animal hygiene", "Jewerly for piercing"];
+    "Children's mashed potatoes", "Plant-based dairy products", "Furniture polishers", "Means for animal hygiene", "Jewerly for piercing"];
 
   return (
     <section id="frequent">

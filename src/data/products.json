@@ -549,7 +549,7 @@
     {
       "id": 40,
       "name": "Beewax polish",
-      "category": "Furniture polishes",
+      "category": "Furniture polishers",
       "price": {
         "old": 324.8,
         "current": 124.8
@@ -563,7 +563,7 @@
     {
       "id": 41,
       "name": "Natural polish",
-      "category": "Furniture polishes",
+      "category": "Furniture polishers",
       "price": {
         "old": null,
         "current": 399
@@ -577,7 +577,7 @@
     {
       "id": 42,
       "name": "Spray - polish for furniture",
-      "category": "Furniture polishes",
+      "category": "Furniture polishers",
       "price": {
         "old": null,
         "current": 154
