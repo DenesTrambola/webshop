@@ -1,18 +1,8 @@
-import { useEffect, useState } from "react";
 import FrequentGroup from "./FrequentGroup";
 
-const FrequentSection = () => {
+const FrequentSection = ({products}) => {
   const categories = ["Means for cleaning wool", "Polishers", "Men's socks", "Medical gloves", "Pasta",
     "Children's mashed potatoes", "Plant-based dairy products", "Furniture polishes", "Means for animal hygiene", "Jewerly for piercing"];
-
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-      fetch("http://localhost:5000/products")
-        .then((res) => res.json())
-        .then((data) => setProducts(data))
-        .catch((error) => console.error("Error loading products: ", error));
-    }, []);
 
   return (
     <section id="frequent">

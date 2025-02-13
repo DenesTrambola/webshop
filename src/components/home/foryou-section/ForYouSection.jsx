@@ -1,22 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import ForYouItem from "./ForYouItem";
 
-
-// TODO: fetch only products that are visible
-
-
-const ForYouSection = () => {
+const ForYouSection = ({products}) => {
   const moreValue = 12;
 
-  const [products, setProducts] = useState([]);
   const [visibleProducts, setVisibleProducts] = useState(moreValue);
-
-  useEffect(() => {
-    fetch("http://localhost:5000/products")
-      .then((res) => res.json())
-      .then((data) => setProducts(data))
-      .catch((error) => console.error("Error loading products: ", error));
-  }, []);
 
   const showMoreHandler = () => {
     setVisibleProducts(prev => prev +=
