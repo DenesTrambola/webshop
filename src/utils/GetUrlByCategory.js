@@ -1,7 +1,7 @@
 const GetUrlByCategory = (name) => {
   switch (name) {
     case 'Means for cleaning wool':
-      return 'means-for-cleaning';
+      return 'means-for-cleaning-wool';
     case 'Polishers':
       return 'polishers';
     case "Men's socks":

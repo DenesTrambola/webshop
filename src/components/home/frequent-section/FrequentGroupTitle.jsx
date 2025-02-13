@@ -5,7 +5,6 @@ const FrequentGroupTitle = ({ category, image }) => {
   const navigation = useNavigate();
 
   const navToCategory = () => {
-    console.log(category);
     navigation(`/category/${GetUrlByCategory(category)}`);
   }
 
