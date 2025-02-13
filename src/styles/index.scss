@@ -354,9 +354,13 @@ header:has(> #search > #search-input:focus) ~ #home-main {z-index: -1}
 
 
 #interested #main {display: flex; overflow: auto}
-#interested .item {text-align: center; margin-inline: .5em}
+#interested .item {
+  text-align: center;
+  margin-inline: .5em;
+  border-radius: 100px;
+}
 #interested .item:hover span {text-decoration: underline}
-#interested img {width: 8em}
+#interested img {width: 8em; border-radius: 100%;}
 #interested a {color: black; text-decoration: none}
 #interested span {display: block}
 #interested #main::-webkit-scrollbar {height: 6px}
@@ -374,25 +378,25 @@ header:has(> #search > #search-input:focus) ~ #home-main {z-index: -1}
     flex-flow: row wrap;
     font-size: .94em;
 }
-#fy .item {
+.product-preview-item {
     background-color: white;
     max-width: 13.5em;
     padding: 1em;
     margin: .5em;
 }
-#fy .item img {width: 100%}
+.product-preview-item img {width: 100%}
 #fy .filled {display: none}
-#fy .item > span, .item > small {display: block}
-#fy .ready  {color: green; margin: 1em 0}
-#fy .price {margin-top: 2em}
-#fy .buy {
+.product-preview-item > span, .item > small {display: block}
+.product-preview-item .ready  {color: green; margin: 1em 0}
+.product-preview-item .price {margin-top: 2em}
+.product-preview-item .buy {
     display: flex;
     justify-content: space-between;
     padding: 1em 0;
     border-bottom: 1px solid lightgray;
     align-items: center;
 }
-#fy .buy button {
+.product-preview-item .buy button {
     color: white;
     font-weight: bold;
     background-color: rgb(138,8,248);
@@ -403,29 +407,29 @@ header:has(> #search > #search-input:focus) ~ #home-main {z-index: -1}
     font-size: 0.9em;
     transition: 0.1s ease background-color;
 }
-#fy .buy button:hover {
+.product-preview-item .buy button:hover {
     transition: 0.1s ease background-color;
     background-color: rgb(98,0,209);
     cursor: pointer;
 }
-#fy .buy .fav {margin-right: .5em; font-size: 1.4em}
-#fy .buy .fav {
+.product-preview-item .buy .fav {margin-right: .5em; font-size: 1.4em}
+.product-preview-item .buy .fav {
     content: url('../assets/icons/heart-basic.png');
     width: 1.3em;
     height: 1.3em;
     appearance: none;
 }
-#fy .buy .fav:hover {cursor: pointer}
-#fy .buy .fav:checked {content: url('../assets/icons/heart-filled.png')}
-#fy .info {
+.product-preview-item .buy .fav:hover {cursor: pointer}
+.product-preview-item .buy .fav:checked {content: url('../assets/icons/heart-filled.png')}
+.product-preview-item .info {
     display: flex;
     justify-content: space-between;
     margin-top: .5em;
 }
-#fy .info i {color: rgb(138,8,248)}
-#fy .info .loc small {display: block}
-#fy .item a {text-decoration: none; color: black}
-#fy .item a:hover span {text-decoration: underline; cursor: pointer}
+.product-preview-item .info i {color: rgb(138,8,248)}
+.product-preview-item .info .loc small {display: block}
+.product-preview-item a {text-decoration: none; color: black}
+.product-preview-item a:hover span {text-decoration: underline; cursor: pointer}
 #fy #more {
     width: 100%;
     height: 2.5em;
@@ -500,49 +504,26 @@ header:has(> #search > #search-input:focus) ~ #home-main {z-index: -1}
 
 
 /*          ________          */
-/*          MILITARY          */
+/*          CATEGORY          */
 /*          ‾‾‾‾‾‾‾‾          */
 
 
-#military-main {padding-inline: 12svw}
-#military-main img:not(.double) {width: 100%}
-#military-main img:not(#top-img):hover {cursor: pointer}
-#top-image, .military-group {margin-bottom: 3em}
+#category-main {padding-inline: 10.5svw; margin-top: 3em}
+#category-items {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: .94em;
+}
+#category-main img:not(.double) {width: 100%}
+#category-main img:not(#top-img):hover {cursor: pointer}
+#top-image, .category-group {margin-bottom: 3em; margin-top: 5em}
 #top-image, #bottomImage {border-radius: 10px}
-#military-main .military-group-title {font-size: 1.5em}
-#military-main .military-items {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: .8em;
-    margin-top: 1em;
-}
-#military-main .military-item {
-    border-radius: 8px;
-    padding: .5em;
-    background-color: white;
-    font-weight: bold;
-    text-align: center;
-}
-#military-main .military-item:hover {cursor: pointer}
-#military-main .military-item img:hover ~ span, #military-main .military-item span:hover {text-decoration: underline}
-#military-main .double {width: 48%; margin: 1em .2em}
-#cold .military-item {width: 9.3em; height: 14em}
-#woman .military-item {width: 21.4%}
-#military-group .military-item {width: 23%}
-#military-group button {
-    margin-top: 1em;
-    width: 100%;
-    height: 3em;
-    border: 1px solid lightgray;
-    border-radius: 7px;
-    transition: .2s ease background-color;
-}
-#main button:hover {
-    transition: .2s ease background-color;
-    background-color: rgb(229, 229, 229);
-    cursor: pointer;
-}
+#category-main .category-group-title {font-size: 2.3em}
+#category-main .category-item:hover {cursor: pointer}
+#category-main .category-item img:hover ~ span, #category-main .category-item span:hover {text-decoration: underline}
+#category-main .double {width: 48%; margin: 1em .2em}
+#cold .category-item {width: 9.3em; height: 14em}
+#woman .category-item {width: 21.4%}
 
 
 /*          ______          */

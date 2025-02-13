@@ -1,0 +1,1264 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Notebook Pixus Vix Lite (4897058531602) wn",
+      "category": "Gifts, hobbies, books",
+      "price": {
+        "old": 9553.75,
+        "current": 8120.69
+      },
+      "image": "/images/products/1.png",
+      "isAvailable": true,
+      "rating": 98,
+      "store": "wiinshop",
+      "country": "Ukraine"
+    },
+    {
+      "id": 2,
+      "name": "Monitor Samsung LS27A800UNIXCI m",
+      "category": "Engineering and electrical engineering",
+      "price": {
+        "old": 20022,
+        "current": 16657
+      },
+      "image": "/images/products/2.png",
+      "isAvailable": true,
+      "rating": 96,
+      "store": "MANGO",
+      "country": "Ukraine"
+    },
+    {
+      "id": 3,
+      "name": "Tablet Pixus Titan 8/128Gb 10,4 2K",
+      "category": "Gifts, hobbies, books",
+      "price": {
+        "old": 10004,
+        "current": 8003
+      },
+      "image": "/images/products/3.png",
+      "isAvailable": true,
+      "rating": 96,
+      "store": "MANGO",
+      "country": "Ukraine"
+    },
+    {
+      "id": 4,
+      "name": "263-5 Matrix loop SAMSUNG NP300E",
+      "category": "Engineering and electrical engineering",
+      "price": {
+        "old": null,
+        "current": 100
+      },
+      "image": "/images/products/4.png",
+      "isAvailable": true,
+      "rating": 96,
+      "store": "MegaNotik",
+      "country": "Ukraine"
+    },
+    {
+      "id": 5,
+      "name": "Mechanical gaming keyboard, REDRAGON Fizz",
+      "category": "Engineering and electrical engineering",
+      "price": {
+        "old": null,
+        "current": 2099
+      },
+      "image": "/images/products/5.png",
+      "isAvailable": true,
+      "rating": 94,
+      "store": "Technomag",
+      "country": "Ukraine"
+    },
+    {
+      "id": 6,
+      "name": "Smartphone Oukitel WP27 12Gb/256Gb, 8500mAh",
+      "category": "Engineering and electrical engineering",
+      "price": {
+        "old": 10199,
+        "current": 9399
+      },
+      "image": "/images/products/6.png",
+      "isAvailable": true,
+      "rating": 100,
+      "store": "MobilaX",
+      "country": "Ukraine"
+    },
+    {
+      "id": 7,
+      "name": "FMA Molle hard case for mobile phone",
+      "category": "Gifts, hobbies, books",
+      "price": {
+        "old": null,
+        "current": 1000
+      },
+      "image": "/images/products/7.png",
+      "isAvailable": true,
+      "rating": 99,
+      "store": "Каратель",
+      "country": "Ukraine"
+    },
+    {
+      "id": 8,
+      "name": "Active stylus for writing and drawing",
+      "category": "Gifts, hobbies, books",
+      "price": {
+        "old": 850,
+        "current": 699
+      },
+      "image": "/images/products/8.png",
+      "isAvailable": true,
+      "rating": 99,
+      "store": "Savetech",
+      "country": "Ukraine"
+    },
+    {
+      "id": 9,
+      "name": "BNM M5 Smart Bracelet Fitness Tracker Watch",
+      "category": "Sports and recreation",
+      "price": {
+        "old": 456,
+        "current": 355.68
+      },
+      "image": "/images/products/9.png",
+      "isAvailable": true,
+      "rating": 100,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 10,
+      "name": "Strap for fitness bracelet Armorstandart",
+      "category": "Sports and recreation",
+      "price": {
+        "old": 213,
+        "current": 170
+      },
+      "image": "/images/products/10.png",
+      "isAvailable": true,
+      "rating": 96,
+      "store": "MANGO",
+      "country": "Ukraine"
+    },
+    {
+      "id": 11,
+      "name": "BNM Wireless LED headphones with cat ears",
+      "category": "Pets and pet products",
+      "price": {
+        "old": 747,
+        "current": 582.66
+      },
+      "image": "/images/products/11.png",
+      "isAvailable": true,
+      "rating": 96,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 12,
+      "name": "BNM Cable HDMI - HDMI 10m reinforced in the winding",
+      "category": "Engineering and electrical engineering",
+      "price": {
+        "old": 456,
+        "current": 355.68
+      },
+      "image": "/images/products/12.png",
+      "isAvailable": true,
+      "rating": 100,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 13,
+      "name": "BNM Portable bluetooth speaker moisture resistant",
+      "category": "Gifts, hobbies, books",
+      "price": {
+        "old": 674,
+        "current": 525.72
+      },
+      "image": "/images/products/13.png",
+      "isAvailable": true,
+      "rating": 100,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 14,
+      "name": "BNM Flexible phone holder with suction cups",
+      "category": "Gifts, hobbies, books",
+      "price": {
+        "old": 310,
+        "current": 241.8
+      },
+      "image": "/images/products/14.png",
+      "isAvailable": true,
+      "rating": 100,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 15,
+      "name": "Acoustic system Large speaker Bluetooth C",
+      "category": "Gifts, hobbies, books",
+      "price": {
+        "old": 10999,
+        "current": 8999
+      },
+      "image": "/images/products/15.png",
+      "isAvailable": true,
+      "rating": 98,
+      "store": "Смерека",
+      "country": "Kyiv"
+    },
+    {
+      "id": 16,
+      "name": "Processor Intel Xeon E3-1230 v2, LGA1155",
+      "category": "Engineering and electrical engineering",
+      "price": {
+        "old": 1100,
+        "current": 999
+      },
+      "image": "/images/products/16.png",
+      "isAvailable": true,
+      "rating": 100,
+      "store": "Memory Store",
+      "country": "Kyiv"
+    },
+    {
+      "id": 17,
+      "name": "VR Shinecon 10.0 + controller T3 VR glasses",
+      "category": "Gifts, hobbies, books",
+      "price": {
+        "old": null,
+        "current": 1120
+      },
+      "image": "/images/products/17.png",
+      "isAvailable": true,
+      "rating": 100,
+      "store": "Moto360",
+      "country": "Ukraine"
+    },
+    {
+      "id": 18,
+      "name": "Game steering wheel PXN V3 PRO (PC, PS3, PS4, X-ONE)",
+      "category": "Gifts, hobbies, books",
+      "price": {
+        "old": 3690,
+        "current": 3190
+      },
+      "image": "/images/products/18.png",
+      "isAvailable": true,
+      "rating": 98,
+      "store": "Смерека",
+      "country": "Ukraine"
+    },
+    {
+      "id": 19,
+      "name": "Hair removal brush",
+      "category": "Means for cleaning wool",
+      "price": {
+        "old": 555,
+        "current": 282
+      },
+      "image": "/images/products/19.png",
+      "isAvailable": true,
+      "rating": 95,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 20,
+      "name": "Hair removal brush",
+      "category": "Means for cleaning wool",
+      "price": {
+        "old": 555,
+        "current": 282
+      },
+      "image": "/images/products/20.png",
+      "isAvailable": true,
+      "rating": 96,
+      "store": "BIG SHOP",
+      "country": "Germany"
+    },
+    {
+      "id": 21,
+      "name": "Brush scraper",
+      "category": "Means for cleaning wool",
+      "price": {
+        "old": null,
+        "current": 30
+      },
+      "image": "/images/products/21.png",
+      "isAvailable": true,
+      "rating": 97,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 22,
+      "name": "Polish for plastic",
+      "category": "Polishers",
+      "price": {
+        "old": 382.43,
+        "current": 325.07
+      },
+      "image": "/images/products/22.png",
+      "isAvailable": true,
+      "rating": 98,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 23,
+      "name": "Means to asepsis",
+      "category": "Polishers",
+      "price": {
+        "old": 204,
+        "current": 163
+      },
+      "image": "/images/products/23.png",
+      "isAvailable": true,
+      "rating": 99,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 24,
+      "name": "Plastic restorer",
+      "category": "Polishers",
+      "price": {
+        "old": 432.13,
+        "current": 367.31
+      },
+      "image": "/images/products/24.png",
+      "isAvailable": true,
+      "rating": 91,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 25,
+      "name": "SDF Puma men's socks",
+      "category": "Men's socks",
+      "price": {
+        "old": 570,
+        "current": 370
+      },
+      "image": "/images/products/25.png",
+      "isAvailable": true,
+      "rating": 92,
+      "store": "BIG SHOP",
+      "country": "Germany"
+    },
+    {
+      "id": 26,
+      "name": "SDF Puma men's socks",
+      "category": "Men's socks",
+      "price": {
+        "old": 570,
+        "current": 370
+      },
+      "image": "/images/products/26.png",
+      "isAvailable": true,
+      "rating": 93,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 27,
+      "name": "UAS MS men's socks",
+      "category": "Men's socks",
+      "price": {
+        "old": null,
+        "current": 570
+      },
+      "image": "/images/products/27.png",
+      "isAvailable": true,
+      "rating": 94,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 28,
+      "name": "Microstop nitrile gloves",
+      "category": "Medical gloves",
+      "price": {
+        "old": 250,
+        "current": 195
+      },
+      "image": "/images/products/28.png",
+      "isAvailable": true,
+      "rating": 95,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 29,
+      "name": "Microstop nitrile gloves",
+      "category": "Medical gloves",
+      "price": {
+        "old": 250,
+        "current": 195
+      },
+      "image": "/images/products/29.png",
+      "isAvailable": true,
+      "rating": 96,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 30,
+      "name": "Nitrile gloves L OPIMALITY",
+      "category": "Medical gloves",
+      "price": {
+        "old": null,
+        "current": 165
+      },
+      "image": "/images/products/30.png",
+      "isAvailable": true,
+      "rating": 97,
+      "store": "BIG SHOP",
+      "country": "Germany"
+    },
+    {
+      "id": 31,
+      "name": "Spaghetti pasta",
+      "category": "Pasta",
+      "price": {
+        "old": 984,
+        "current": 806.88
+      },
+      "image": "/images/products/31.png",
+      "isAvailable": true,
+      "rating": 99,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 32,
+      "name": "Funchoza noodles",
+      "category": "Pasta",
+      "price": {
+        "old": null,
+        "current": 139
+      },
+      "image": "/images/products/32.png",
+      "isAvailable": true,
+      "rating": 91,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 33,
+      "name": "Soy glass noodles",
+      "category": "Pasta",
+      "price": {
+        "old": 78.12,
+        "current": 70.31
+      },
+      "image": "/images/products/33.png",
+      "isAvailable": true,
+      "rating": 92,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 34,
+      "name": "GARBER Apple",
+      "category": "Children's mashed potatoes",
+      "price": {
+        "old": 41,
+        "current": 32.8
+      },
+      "image": "/images/products/34.png",
+      "isAvailable": true,
+      "rating": 93,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 35,
+      "name": "Children's puree Green",
+      "category": "Children's mashed potatoes",
+      "price": {
+        "old": 168.43,
+        "current": 143.17
+      },
+      "image": "/images/products/35.png",
+      "isAvailable": true,
+      "rating": 94,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 36,
+      "name": "Fruit puree strawberry",
+      "category": "Children's mashed potatoes",
+      "price": {
+        "old": null,
+        "current": 70
+      },
+      "image": "/images/products/36.png",
+      "isAvailable": true,
+      "rating": 95,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 37,
+      "name": "Vegetable milk",
+      "category": "Plant-based dairy products",
+      "price": {
+        "old": null,
+        "current": 150
+      },
+      "image": "/images/products/37.png",
+      "isAvailable": true,
+      "rating": 96,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 38,
+      "name": "Alpro coconut milk",
+      "category": "Plant-based dairy products",
+      "price": {
+        "old": null,
+        "current": 150
+      },
+      "image": "/images/products/38.png",
+      "isAvailable": true,
+      "rating": 97,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 39,
+      "name": "Vegetable milk",
+      "category": "Plant-based dairy products",
+      "price": {
+        "old": null,
+        "current": 79
+      },
+      "image": "/images/products/39.png",
+      "isAvailable": true,
+      "rating": 98,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 40,
+      "name": "Beewax polish",
+      "category": "Furniture polishers",
+      "price": {
+        "old": 324.8,
+        "current": 124.8
+      },
+      "image": "/images/products/40.png",
+      "isAvailable": true,
+      "rating": 99,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 41,
+      "name": "Natural polish",
+      "category": "Furniture polishers",
+      "price": {
+        "old": null,
+        "current": 399
+      },
+      "image": "/images/products/41.png",
+      "isAvailable": true,
+      "rating": 91,
+      "store": "BIG SHOP",
+      "country": "Germany"
+    },
+    {
+      "id": 42,
+      "name": "Spray - polish for furniture",
+      "category": "Furniture polishers",
+      "price": {
+        "old": null,
+        "current": 154
+      },
+      "image": "/images/products/42.png",
+      "isAvailable": true,
+      "rating": 92,
+      "store": "BIG SHOP",
+      "country": "Germany"
+    },
+    {
+      "id": 43,
+      "name": "Dishes for cats Trixie",
+      "category": "Means for animal hygiene",
+      "price": {
+        "old": 265.08,
+        "current": 225.32
+      },
+      "image": "/images/products/43.png",
+      "isAvailable": true,
+      "rating": 93,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 44,
+      "name": "Electric roller brush",
+      "category": "Means for animal hygiene",
+      "price": {
+        "old": 461,
+        "current": 369
+      },
+      "image": "/images/products/44.png",
+      "isAvailable": true,
+      "rating": 94,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 45,
+      "name": "Dog toothbrush",
+      "category": "Means for animal hygiene",
+      "price": {
+        "old": 224,
+        "current": 179
+      },
+      "image": "/images/products/45.png",
+      "isAvailable": true,
+      "rating": 95,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 46,
+      "name": "Gold earring-piercing",
+      "category": "Jewerly for piercing",
+      "price": {
+        "old": null,
+        "current": 1892
+      },
+      "image": "/images/products/46.png",
+      "isAvailable": true,
+      "rating": 96,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 47,
+      "name": "Studex earrings",
+      "category": "Jewerly for piercing",
+      "price": {
+        "old": null,
+        "current": 121
+      },
+      "image": "/images/products/47.png",
+      "isAvailable": true,
+      "rating": 97,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 48,
+      "name": "Piercing earrings",
+      "category": "Jewerly for piercing",
+      "price": {
+        "old": null,
+        "current": 110
+      },
+      "image": "/images/products/48.png",
+      "isAvailable": true,
+      "rating": 98,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 49,
+      "name": "Thermal set",
+      "category": "Clothes and shoes",
+      "price": {
+        "old": null,
+        "current": 635
+      },
+      "image": "/images/products/49.png",
+      "isAvailable": true,
+      "rating": 99,
+      "store": "BIG SHOP",
+      "country": "Germany"
+    },
+    {
+      "id": 50,
+      "name": "Winter camouflage suit",
+      "category": "Clothes and shoes",
+      "price": {
+        "old": null,
+        "current": 3700
+      },
+      "image": "/images/products/50.png",
+      "isAvailable": true,
+      "rating": 91,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 51,
+      "name": "Thermose",
+      "category": "House and garden",
+      "price": {
+        "old": null,
+        "current": 489
+      },
+      "image": "/images/products/51.png",
+      "isAvailable": true,
+      "rating": 92,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 52,
+      "name": "Folding teapot",
+      "category": "House and garden",
+      "price": {
+        "old": null,
+        "current": 427
+      },
+      "image": "/images/products/52.png",
+      "isAvailable": true,
+      "rating": 93,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 53,
+      "name": "Gas equipment",
+      "category": "House and garden",
+      "price": {
+        "old": null,
+        "current": 321
+      },
+      "image": "/images/products/53.png",
+      "isAvailable": true,
+      "rating": 94,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 54,
+      "name": "Generator",
+      "category": "Engineering and electrical engineering",
+      "price": {
+        "old": null,
+        "current": 7499
+      },
+      "image": "/images/products/54.png",
+      "isAvailable": true,
+      "rating": 95,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 55,
+      "name": "Thermal blanket",
+      "category": "House and garden",
+      "price": {
+        "old": null,
+        "current": 555
+      },
+      "image": "/images/products/55.png",
+      "isAvailable": true,
+      "rating": 96,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 56,
+      "name": "Salt warmer",
+      "category": "House and garden",
+      "price": {
+        "old": null,
+        "current": 1160
+      },
+      "image": "/images/products/56.png",
+      "isAvailable": true,
+      "rating": 97,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 57,
+      "name": "Women's tactical pants",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 2268
+      },
+      "image": "/images/products/57.png",
+      "isAvailable": true,
+      "rating": 98,
+      "store": "BIG SHOP",
+      "country": "Germany"
+    },
+    {
+      "id": 58,
+      "name": "Women's tactical shoes",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 2100
+      },
+      "image": "/images/products/58.png",
+      "isAvailable": true,
+      "rating": 99,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 59,
+      "name": "Comfortable underwear",
+      "category": "Clothes and shoes",
+      "price": {
+        "old": null,
+        "current": 262
+      },
+      "image": "/images/products/59.png",
+      "isAvailable": true,
+      "rating": 91,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 60,
+      "name": "Feminine hygiene product",
+      "category": "Beauty and health",
+      "price": {
+        "old": null,
+        "current": 710
+      },
+      "image": "/images/products/60.png",
+      "isAvailable": true,
+      "rating": 92,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 61,
+      "name": "Beige Male T-shirt",
+      "category": "Clothes and shoes",
+      "price": {
+        "old": null,
+        "current": 240
+      },
+      "image": "/images/products/61.png",
+      "isAvailable": true,
+      "rating": 93,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 62,
+      "name": "Fleece sweater",
+      "category": "Clothes and shoes",
+      "price": {
+        "old": null,
+        "current": 2209
+      },
+      "image": "/images/products/62.png",
+      "isAvailable": true,
+      "rating": 94,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 63,
+      "name": "Military Pants",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 2430
+      },
+      "image": "/images/products/63.png",
+      "isAvailable": true,
+      "rating": 95,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 64,
+      "name": "Winter jacket",
+      "category": "Clothes and shoes",
+      "price": {
+        "old": null,
+        "current": 5706
+      },
+      "image": "/images/products/64.png",
+      "isAvailable": true,
+      "rating": 96,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 65,
+      "name": "Male Boxer",
+      "category": "Clothes and shoes",
+      "price": {
+        "old": null,
+        "current": 469
+      },
+      "image": "/images/products/65.png",
+      "isAvailable": true,
+      "rating": 97,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 66,
+      "name": "Green Socks",
+      "category": "Clothes and shoes",
+      "price": {
+        "old": null,
+        "current": 95
+      },
+      "image": "/images/products/66.png",
+      "isAvailable": true,
+      "rating": 98,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 67,
+      "name": "Military Patch",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 250
+      },
+      "image": "/images/products/67.png",
+      "isAvailable": true,
+      "rating": 99,
+      "store": "BIG SHOP",
+      "country": "Germany"
+    },
+    {
+      "id": 68,
+      "name": "Tactical raincoat",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 2909
+      },
+      "image": "/images/products/68.png",
+      "isAvailable": true,
+      "rating": 91,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 69,
+      "name": "Tactical Balaclava",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 289
+      },
+      "image": "/images/products/69.png",
+      "isAvailable": true,
+      "rating": 92,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 70,
+      "name": "Military Hat",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 341
+      },
+      "image": "/images/products/70.png",
+      "isAvailable": true,
+      "rating": 93,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 71,
+      "name": "Tactical gloves",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 178
+      },
+      "image": "/images/products/71.png",
+      "isAvailable": true,
+      "rating": 94,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 72,
+      "name": "Tactical glasses",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 299
+      },
+      "image": "/images/products/72.png",
+      "isAvailable": true,
+      "rating": 95,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 73,
+      "name": "Gas Mask",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 780
+      },
+      "image": "/images/products/73.png",
+      "isAvailable": true,
+      "rating": 96,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 74,
+      "name": "Tactical Headphone",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 2499
+      },
+      "image": "/images/products/74.png",
+      "isAvailable": true,
+      "rating": 97,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 75,
+      "name": "Walkie-talkie",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 1230
+      },
+      "image": "/images/products/75.png",
+      "isAvailable": true,
+      "rating": 98,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 76,
+      "name": "Compass",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 450
+      },
+      "image": "/images/products/76.png",
+      "isAvailable": true,
+      "rating": 99,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 77,
+      "name": "Sleeping bag",
+      "category": "Sports and recreation",
+      "price": {
+        "old": null,
+        "current": 2460
+      },
+      "image": "/images/products/77.png",
+      "isAvailable": true,
+      "rating": 91,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 78,
+      "name": "Mattress",
+      "category": "House and garden",
+      "price": {
+        "old": null,
+        "current": 1999
+      },
+      "image": "/images/products/78.png",
+      "isAvailable": true,
+      "rating": 92,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 79,
+      "name": "Binocular",
+      "category": "Military",
+      "price": {
+        "old": null,
+        "current": 769
+      },
+      "image": "/images/products/79.png",
+      "isAvailable": true,
+      "rating": 93,
+      "store": "BIG SHOP",
+      "country": "Germany"
+    },
+    {
+      "id": 80,
+      "name": "Light",
+      "category": "House and garden",
+      "price": {
+        "old": null,
+        "current": 709
+      },
+      "image": "/images/products/80.png",
+      "isAvailable": true,
+      "rating": 94,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 81,
+      "name": "Disposable souls",
+      "category": "Beauty and health",
+      "price": {
+        "old": null,
+        "current": 435
+      },
+      "image": "/images/products/81.png",
+      "isAvailable": true,
+      "rating": 95,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 82,
+      "name": "Tourist towel",
+      "category": "Sports and recreation",
+      "price": {
+        "old": null,
+        "current": 350
+      },
+      "image": "/images/products/82.png",
+      "isAvailable": true,
+      "rating": 96,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 83,
+      "name": "Hand cream",
+      "category": "Beauty and health",
+      "price": {
+        "old": null,
+        "current": 84
+      },
+      "image": "/images/products/83.png",
+      "isAvailable": true,
+      "rating": 97,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 84,
+      "name": "Foot care",
+      "category": "Beauty and health",
+      "price": {
+        "old": null,
+        "current": 250
+      },
+      "image": "/images/products/84.png",
+      "isAvailable": true,
+      "rating": 98,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 85,
+      "name": "Face and body cream",
+      "category": "Beauty and health",
+      "price": {
+        "old": null,
+        "current": 760
+      },
+      "image": "/images/products/85.png",
+      "isAvailable": true,
+      "rating": 99,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 86,
+      "name": "Dry shampoo",
+      "category": "Beauty and health",
+      "price": {
+        "old": null,
+        "current": 225
+      },
+      "image": "/images/products/86.png",
+      "isAvailable": true,
+      "rating": 91,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 87,
+      "name": "Wet wipes",
+      "category": "Beauty and health",
+      "price": {
+        "old": null,
+        "current": 110
+      },
+      "image": "/images/products/87.png",
+      "isAvailable": true,
+      "rating": 92,
+      "store": "BIG SHOP",
+      "country": "Ukraine"
+    },
+    {
+      "id": 88,
+      "name": "Antiseptic",
+      "category": "Beauty and health",
+      "price": {
+        "old": null,
+        "current": 93
+      },
+      "image": "/images/products/88.png",
+      "isAvailable": true,
+      "rating": 93,
+      "store": "BIG SHOP",
+      "country": "Germany"
+    },
+    {
+      "id": 89,
+      "name": "Shaving product",
+      "category": "Beauty and health",
+      "price": {
+        "old": null,
+        "current": 150
+      },
+      "image": "/images/products/89.png",
+      "isAvailable": true,
+      "rating": 94,
+      "store": "BIG SHOP",
+      "country": "Hungary"
+    },
+    {
+      "id": 90,
+      "name": "Rubber slippers",
+      "category": "Clothes and shoes",
+      "price": {
+        "old": null,
+        "current": 320
+      },
+      "image": "/images/products/90.png",
+      "isAvailable": true,
+      "rating": 95,
+      "store": "BIG SHOP",
+      "country": "Germany"
+    }
+  ]
+}
