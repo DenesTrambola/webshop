@@ -354,9 +354,13 @@ header:has(> #search > #search-input:focus) ~ #home-main {z-index: -1}
 
 
 #interested #main {display: flex; overflow: auto}
-#interested .item {text-align: center; margin-inline: .5em}
+#interested .item {
+  text-align: center;
+  margin-inline: .5em;
+  border-radius: 100px;
+}
 #interested .item:hover span {text-decoration: underline}
-#interested img {width: 8em}
+#interested img {width: 8em; border-radius: 100%;}
 #interested a {color: black; text-decoration: none}
 #interested span {display: block}
 #interested #main::-webkit-scrollbar {height: 6px}

@@ -1,11 +1,9 @@
-import Interested1 from '../../../assets/img/home/interested/interested1.png';
-
-const InterestedItem = () => {
+const InterestedItem = ({category, image}) => {
   return (
     <div className="item">
       <a>
-        <img src={Interested1} loading="lazy" />
-        <span>Means for cleaning</span>
+        <img src={image} loading="lazy" />
+        <span>{category}</span>
       </a>
     </div>
   );
