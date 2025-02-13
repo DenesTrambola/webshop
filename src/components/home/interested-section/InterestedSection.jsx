@@ -11,7 +11,7 @@ const InterestedSection = () => {
       <h3>Might be interested</h3>
 
       <div id="main">
-        {categories.map((category, index) => <InterestedItem category={category} image={`/images/categories/${index === 0 ? '1' : (index + 10)}.png`} />)}
+        {categories.map((category, index) => <InterestedItem key={category} category={category} image={`/images/categories/${index === 0 ? '1' : (index + 10)}.png`} />)}
       </div>
     </section>
   );

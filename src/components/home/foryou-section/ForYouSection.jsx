@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ForYouItem from "./ForYouItem";
+import Product from "../../product/Product";
 
 const ForYouSection = ({products}) => {
   const moreValue = 12;
@@ -19,7 +19,7 @@ const ForYouSection = ({products}) => {
 
       <div id="main">
         {products.slice(0, visibleProducts).map((product) => (
-          <ForYouItem key={product.id} product={product} />
+          <Product key={product.id} product={product} />
         ))}
       </div>
 

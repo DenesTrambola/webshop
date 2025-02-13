@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { MainLayout, EmptyLayout } from './layouts';
-import { Home, Military, NotFound } from './pages'
+import { Category, Home, NotFound } from './pages'
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
 
       <Route path="/" element={ <MainLayout /> }>
         <Route index element={<Home />}/>
-        <Route path='/military' element={<Military />}/>
+        <Route path='/category/:category' element={<Category />}/>
       </Route>
 
       <Route element={<EmptyLayout />}>

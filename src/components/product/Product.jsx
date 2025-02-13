@@ -1,9 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckDouble } from "@fortawesome/free-solid-svg-icons";
 
-const ForYouItem = ({ product }) => {
+const Product = ({ product }) => {
   return (
-    <div className="item">
+    <div className="product-preview-item">
       <a>
         <img src={product.image} alt={product.name} loading="lazy" />
         <span>{product.name}</span>
@@ -35,4 +35,4 @@ const ForYouItem = ({ product }) => {
   );
 };
 
-export default ForYouItem;
+export default Product;
