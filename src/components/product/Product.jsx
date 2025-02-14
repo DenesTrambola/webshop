@@ -2,6 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckDouble } from "@fortawesome/free-solid-svg-icons";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleLike } from "../../stores/slices/likedSlice";
+import UnlikedImg from "../../assets/icons/heart-basic.png";
+import LikedImg from "../../assets/icons/heart-filled.png";
 
 const Product = ({ product }) => {
   const dispatch = useDispatch();
@@ -27,10 +29,10 @@ const Product = ({ product }) => {
       </span>
 
       <div className="buy">
-        <button>Buy</button>
-        <input
+        <button className="buy-btn">Buy</button>
+        <img
+          src={isLiked ? LikedImg : UnlikedImg}
           onClick={() => dispatch(toggleLike(product.id))}
-          type="checkbox"
           className="fav"
         />
       </div>
