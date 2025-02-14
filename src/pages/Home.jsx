@@ -7,16 +7,10 @@ import FrequentSection from "../components/home/frequent-section/FrequentSection
 import InterestedSection from "../components/home/interested-section/InterestedSection";
 import SearchesSection from "../components/home/searches-section/SearchesSection";
 import SidebarMenu from "../components/home/SidebarMenu";
+import useFetchProducts from "../hooks/useFetchProducts";
 
 const Home = () => {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-      fetch("http://localhost:5000/products")
-        .then((res) => res.json())
-        .then((data) => setProducts(data))
-        .catch((error) => console.error("Error loading products: ", error));
-    }, []);
+  const {products, loading, error} = useFetchProducts("http://localhost:5000/products");
 
   return (
     <main id="home-main">
@@ -26,14 +20,18 @@ const Home = () => {
         <CreateCustomShop />
       </section>
 
-      <FrequentSection products={products} />
+      {loading && <p>Loading products...</p>}
+      {error && <p>Error: {error}</p>}
 
-      <InterestedSection />
-
-      <ForYouSection products={products} />
+      {!loading && !error && (
+        <>
+          <FrequentSection products={products} />
+          <InterestedSection />
+          <ForYouSection products={products} />
+        </>
+      )}
 
       <SearchesSection />
-
       <CustomShopSection />
     </main>
   );
