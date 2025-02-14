@@ -1,7 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckDouble } from "@fortawesome/free-solid-svg-icons";
+import { useDispatch, useSelector } from "react-redux";
+import { toggleLike } from "../../stores/slices/likedSlice";
+import UnlikedImg from "../../assets/icons/heart-basic.png";
+import LikedImg from "../../assets/icons/heart-filled.png";
 
 const Product = ({ product }) => {
+  const dispatch = useDispatch();
+  const likedProducts = useSelector((state) => state.liked.likedProducts);
+
+  const isLiked = likedProducts.includes(product.id);
+
   return (
     <div className="product-preview-item">
       <a>
@@ -9,13 +18,23 @@ const Product = ({ product }) => {
         <span>{product.name}</span>
       </a>
 
-      <span className="ready">{product.isAvailable ? "Ready to ship" : "Out of stock"}</span>
-      {product.price.old && <small className="old-price">{product.price.old} ₴</small>}
-      <span className={product.price.old ? 'new-price' : 'price'}>{product.price.current} ₴</span>
+      <span className="ready">
+        {product.isAvailable ? "Ready to ship" : "Out of stock"}
+      </span>
+      {product.price.old && (
+        <small className="old-price">{product.price.old} ₴</small>
+      )}
+      <span className={product.price.old ? "new-price" : "price"}>
+        {product.price.current} ₴
+      </span>
 
       <div className="buy">
-        <button>Buy</button>
-        <input type="checkbox" className="fav" />
+        <button className="buy-btn">Buy</button>
+        <img
+          src={isLiked ? LikedImg : UnlikedImg}
+          onClick={() => dispatch(toggleLike(product.id))}
+          className="fav"
+        />
       </div>
 
       <div className="info">

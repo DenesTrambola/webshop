@@ -378,14 +378,37 @@ header:has(> #search > #search-input:focus) ~ #home-main {z-index: -1}
     flex-flow: row wrap;
     font-size: .94em;
 }
+#fy #more {
+  width: 100%;
+  height: 2.5em;
+  font-size: 1em;
+  border-radius: 8px;
+  border: 1px solid rgb(138,8,248);
+  margin-top: .5em;
+  color: rgb(138,8,248);
+  font-weight: bold;
+  transition: .2s ease background-color;
+}
+#fy #more:hover {
+  transition: .2s ease background-color;
+  background-color: rgb(227, 209, 242);
+  cursor: pointer;
+}
+#fy .filled {display: none}
+
+
+/*          _______          */
+/*          PRODUCT          */
+/*          ‾‾‾‾‾‾‾          */
+
+
 .product-preview-item {
     background-color: white;
     max-width: 13.5em;
     padding: 1em;
     margin: .5em;
 }
-.product-preview-item img {width: 100%}
-#fy .filled {display: none}
+.product-preview-item img:not(.fav > img) {width: 100%}
 .product-preview-item > span, .item > small {display: block}
 .product-preview-item .ready  {color: green; margin: 1em 0}
 .product-preview-item .price {margin-top: 2em}
@@ -396,7 +419,7 @@ header:has(> #search > #search-input:focus) ~ #home-main {z-index: -1}
     border-bottom: 1px solid lightgray;
     align-items: center;
 }
-.product-preview-item .buy button {
+.product-preview-item .buy-btn {
     color: white;
     font-weight: bold;
     background-color: rgb(138,8,248);
@@ -407,20 +430,22 @@ header:has(> #search > #search-input:focus) ~ #home-main {z-index: -1}
     font-size: 0.9em;
     transition: 0.1s ease background-color;
 }
-.product-preview-item .buy button:hover {
+.product-preview-item .buy-btn:hover {
     transition: 0.1s ease background-color;
     background-color: rgb(98,0,209);
     cursor: pointer;
 }
-.product-preview-item .buy .fav {margin-right: .5em; font-size: 1.4em}
 .product-preview-item .buy .fav {
-    content: url('../assets/icons/heart-basic.png');
-    width: 1.3em;
-    height: 1.3em;
+    margin-right: .5em;
+    font-size: 1.4em;
+    width: 1.4em;
+    height: 1.4em;
     appearance: none;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
 }
 .product-preview-item .buy .fav:hover {cursor: pointer}
-.product-preview-item .buy .fav:checked {content: url('../assets/icons/heart-filled.png')}
 .product-preview-item .info {
     display: flex;
     justify-content: space-between;
@@ -430,22 +455,6 @@ header:has(> #search > #search-input:focus) ~ #home-main {z-index: -1}
 .product-preview-item .info .loc small {display: block}
 .product-preview-item a {text-decoration: none; color: black}
 .product-preview-item a:hover span {text-decoration: underline; cursor: pointer}
-#fy #more {
-    width: 100%;
-    height: 2.5em;
-    font-size: 1em;
-    border-radius: 8px;
-    border: 1px solid rgb(138,8,248);
-    margin-top: .5em;
-    color: rgb(138,8,248);
-    font-weight: bold;
-    transition: .2s ease background-color;
-}
-#fy #more:hover {
-    transition: .2s ease background-color;
-    background-color: rgb(227, 209, 242);
-    cursor: pointer;
-}
 
 
 /*          ________________          */
@@ -514,7 +523,6 @@ header:has(> #search > #search-input:focus) ~ #home-main {z-index: -1}
   flex-flow: row wrap;
   font-size: .94em;
 }
-#category-main img:not(.double) {width: 100%}
 #category-main img:not(#top-img):hover {cursor: pointer}
 #top-image, .category-group {margin-bottom: 3em; margin-top: 5em}
 #top-image, #bottomImage {border-radius: 10px}
