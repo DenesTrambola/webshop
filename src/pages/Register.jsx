@@ -17,14 +17,14 @@ const RegisterPage = () => {
     setError("");
 
     fetch(
-      `http://localhost:5000/users?email=${formData.email}&username=${formData.username}`
+      `http://localhost:5001/users?email=${formData.email}&username=${formData.username}`
     )
       .then((res) => res.json())
       .then((users) => {
         if (users.length > 0) {
           setError("Username or email already exists");
         } else {
-          fetch("http://localhost:5000/users", {
+          fetch("http://localhost:5001/users", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(formData),

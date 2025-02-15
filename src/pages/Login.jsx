@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault();
     setError("");
 
-    fetch(`http://localhost:5000/users?email=${email}`)
+    fetch(`http://localhost:5001/users?email=${email}`)
       .then((res) => res.json())
       .then((users) => {
         const user = users.find((u) => u.password === password);
@@ -50,7 +50,7 @@ const Login = () => {
         <button type="submit">Login</button>
       </form>
 
-      <big>"IF YOU DON'T HAVE AN ACCOUNT YET, REGISTER</big>
+      <big>{"IF YOU DON'T HAVE AN ACCOUNT YET, REGISTER "}</big>
       <Link to="/register">HERE</Link>
     </div>
   );
