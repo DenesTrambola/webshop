@@ -27,7 +27,7 @@ const Buttons = () => {
     <div id="buttons">
       <Button
         icon={faUser}
-        text={user.username ?? "Login"}
+        text={user?.username ?? "Login"}
         id="login"
         clickHandler={clickHandler}
       />
