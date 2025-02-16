@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { login } from "../stores/slices/authSlice";
 import { Link, useNavigate } from "react-router-dom";
+import { login } from "../stores/slices/authSlice";
+import { setCartFromDB } from "../stores/slices/cartSlice";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -21,6 +22,7 @@ const Login = () => {
         const user = users.find((u) => u.password === password);
         if (user) {
           dispatch(login(user));
+          dispatch(setCartFromDB(user.cart || []));
           navigate("/");
         } else {
           setError("Invalid email or password");
