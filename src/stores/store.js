@@ -1,8 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import likedReducer from './slices/likedSlice';
+import { likedReducer, authReducer } from './slices';
 
 export const store = configureStore({
   reducer: {
     liked: likedReducer,
+    auth: authReducer,
   },
 });

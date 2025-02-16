@@ -1,19 +1,49 @@
-import { faHouse, faGripLines, faCartShopping } from '@fortawesome/free-solid-svg-icons';
-import { faUser, faHeart, faCommentDots } from '@fortawesome/free-regular-svg-icons'
-import Button from './Button';
+import {
+  faHouse,
+  faGripLines,
+  faCartShopping,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faUser,
+  faHeart,
+  faCommentDots,
+} from "@fortawesome/free-regular-svg-icons";
+import Button from "./Button";
+import { useDispatch, useSelector } from "react-redux";
+import { logout } from "../../stores/slices/authSlice";
+import { useNavigate } from "react-router-dom";
 
 const Buttons = () => {
+  const user = useSelector((state) => state.auth.user);
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+
+  const clickHandler = () => {
+    if (user) dispatch(logout());
+    navigate("/login");
+  };
+
   return (
     <div id="buttons">
-      <Button icon={faUser} text="Login" id="login" />
+      <Button
+        icon={faUser}
+        text={user?.username ?? "Login"}
+        id="login"
+        clickHandler={clickHandler}
+      />
       <Button icon={faHeart} text="Chosen" id="fav" />
-      <Button icon={faHouse} text="Home" id="home" />
-      <Button icon={faGripLines} text="Catalogue" id="catalog" />
-      <Button icon={faCartShopping} text="Cart" id="cart" />
-      <Button icon={faCommentDots} text="Chats" id="chat" />
-      <Button icon={faUser} text="Account" id="profile" />
+      <Button icon={faHouse} text="Home" id="home" clickHandler={null} />
+      <Button
+        icon={faGripLines}
+        text="Catalogue"
+        id="catalog"
+        clickHandler={null}
+      />
+      <Button icon={faCartShopping} text="Cart" id="cart" clickHandler={null} />
+      <Button icon={faCommentDots} text="Chats" id="chat" clickHandler={null} />
+      <Button icon={faUser} text="Account" id="profile" clickHandler={null} />
     </div>
   );
-}
+};
 
 export default Buttons;
