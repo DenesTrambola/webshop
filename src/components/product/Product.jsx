@@ -12,6 +12,11 @@ const Product = ({ product }) => {
 
   const isLiked = likedProducts.includes(product.id);
 
+  const buyHandler = () => {
+    dispatch(addToCart(product));
+    console.log("ADDED " + product.name);
+  };
+
   return (
     <div className="product-preview-item">
       <a>
@@ -30,7 +35,7 @@ const Product = ({ product }) => {
       </span>
 
       <div className="buy">
-        <button onClick={dispatch(addToCart(product))} className="buy-btn">
+        <button onClick={buyHandler} className="buy-btn">
           Buy
         </button>
         <img
