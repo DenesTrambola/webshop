@@ -13,29 +13,45 @@ const cartSlice = createSlice({
   reducers: {
     addToCart: (state, action) => {
       const product = action.payload;
-      const existingItem = state.cartItems.find((item) => item.id === product.id);
+      const existingItem = state.cartItems.find((item) => item.productId === product.id);
 
       if (existingItem) {
         existingItem.quantity += 1;
       } else {
-        state.cartItems.push({ ...product, quantity: 1 });
+        state.cartItems.push({ productId: product.id, productName: product.name, quantity: 1 });
       }
 
-      localStorage.setItem("cart", JSON.stringify(state.cartItems));
+      saveCart(state.cartItems);
     },
     removeFromCart: (state, action) => {
-      state.cartItems = state.cartItems.filter((item) => item.id !== action.payload);
-      localStorage.setItem("cart", JSON.stringify(state.cartItems));
+      const productId = action.payload;
+      state.cartItems = state.cartItems.filter((item) => item.productId !== productId);
+      saveCart(state.cartItems);
     },
     clearCart: (state) => {
       state.cartItems = [];
-      localStorage.removeItem("cart");
+      saveCart([]);
     },
     setCartFromDB: (state, action) => {
       state.cartItems = action.payload;
+      saveCart(action.payload);
     },
   },
 });
 
 export const { addToCart, removeFromCart, clearCart, setCartFromDB } = cartSlice.actions;
 export default cartSlice.reducer;
+
+const saveCart = (cartItems) => {
+  const user = JSON.parse(localStorage.getItem("user"));
+
+  if (user) {
+    fetch(`http://localhost:5001/users/${user.id}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ cart: cartItems }),
+    });
+  } else {
+    localStorage.setItem("cart", JSON.stringify(cartItems));
+  }
+};
