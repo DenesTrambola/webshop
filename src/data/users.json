@@ -5,7 +5,18 @@
       "username": "asd",
       "email": "Tromb_xd55@student.itstep.org",
       "password": "asdasd",
-      "cart": []
+      "cart": [
+        {
+          "productId": "1",
+          "productName": "Notebook Pixus Vix Lite (4897058531602) wn",
+          "quantity": 2
+        },
+        {
+          "productId": "2",
+          "productName": "Monitor Samsung LS27A800UNIXCI m",
+          "quantity": 1
+        }
+      ]
     }
   ]
 }

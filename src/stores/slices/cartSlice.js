@@ -18,7 +18,9 @@ const cartSlice = createSlice({
       if (existingItem) {
         existingItem.quantity += 1;
       } else {
-        state.cartItems.push({ productId: product.id, productName: product.name, quantity: 1 });
+        state.cartItems.push(
+          { productId: product.id, productName: product.name, quantity: 1 }
+        );
       }
 
       saveCart(state.cartItems);
@@ -33,8 +35,11 @@ const cartSlice = createSlice({
       saveCart([]);
     },
     setCartFromDB: (state, action) => {
-      state.cartItems = action.payload;
+      console.log(state.cartItems);
+      state.cartItems = [...action.payload];
+      console.log(state.cartItems);
       saveCart(action.payload);
+      console.log(state.cartItems);
     },
   },
 });
@@ -51,7 +56,7 @@ const saveCart = (cartItems) => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ cart: cartItems }),
     });
-  } else {
-    localStorage.setItem("cart", JSON.stringify(cartItems));
   }
+
+  localStorage.setItem("cart", JSON.stringify(cartItems));
 };
