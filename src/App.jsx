@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { MainLayout, EmptyLayout } from "./layouts";
-import { Category, Home, Login, NotFound, Register } from "./pages";
+import { Category, Home, Login, NotFound, Register, Cart } from "./pages";
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
 
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/cart" element={<Cart />} />
 
       <Route element={<EmptyLayout />}>
         <Route path="*" element={<NotFound />} />
