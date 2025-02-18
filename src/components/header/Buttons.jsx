@@ -18,9 +18,13 @@ const Buttons = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  const clickHandler = () => {
+  const loginHandler = () => {
     if (user) dispatch(logout());
     navigate("/login");
+  };
+
+  const cartHandler = () => {
+    navigate("/cart");
   };
 
   return (
@@ -29,7 +33,7 @@ const Buttons = () => {
         icon={faUser}
         text={user?.username ?? "Login"}
         id="login"
-        clickHandler={clickHandler}
+        clickHandler={loginHandler}
       />
       <Button icon={faHeart} text="Chosen" id="fav" />
       <Button icon={faHouse} text="Home" id="home" clickHandler={null} />
@@ -39,7 +43,12 @@ const Buttons = () => {
         id="catalog"
         clickHandler={null}
       />
-      <Button icon={faCartShopping} text="Cart" id="cart" clickHandler={null} />
+      <Button
+        icon={faCartShopping}
+        text="Cart"
+        id="cart"
+        clickHandler={cartHandler}
+      />
       <Button icon={faCommentDots} text="Chats" id="chat" clickHandler={null} />
       <Button icon={faUser} text="Account" id="profile" clickHandler={null} />
     </div>
